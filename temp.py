@@ -16,6 +16,19 @@ cv2.imshow('res2',res2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+im = cv2.imread('data/src/lena.jpg')
+
+print(type(im))
+# <class 'numpy.ndarray'>
+
+print(im.shape)
+# (225, 400, 3)
+
+print(im.dtype)
+# uint8
+
+im[:, :, (0, 1)] = 0
+
 """
 Spyder Editor
 
