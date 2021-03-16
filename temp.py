@@ -29,6 +29,8 @@ print(im.dtype)
 
 im[:, :, (0, 1)] = 0
 
+cv2.imwrite('data/dst/lena_opencv_red.jpg', im)
+
 """
 Spyder Editor
 
