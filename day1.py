@@ -27,3 +27,39 @@ print(type(str_one))
 list1 = ["car","bike"]
 print(list1)
 print(type(list1))
+
+#Tuple Data Type
+
+tup = ("car","bike","bus")
+print(tup)
+print(type(tup))
+
+#Dictionary Data type
+
+dict_one = {"Name": "Steve", "Location": "NewYork"}
+print(dict_one)
+print(type(dict_one))
+
+#Set Data type
+
+set_one = set({"Hello","world","Hello"})
+print(set_one)
+print(type(set_one))
+
+#Frozen Set
+
+f_one = frozenset({"Hello","World","Hello"})
+print(f_one)
+print(type(f_one))
+
+#Boolean Data Type
+
+b = True
+print(b)
+print(type(b))
+
+#Byte Data Type
+
+byte_one = b"World"
+print(type(byte_one))
+print(byte_one)
