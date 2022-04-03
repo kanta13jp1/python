@@ -63,3 +63,27 @@ print(type(b))
 byte_one = b"World"
 print(type(byte_one))
 print(byte_one)
+
+#String
+str1 = "Welcome to complete Python Course"
+str2 = 'Welcome to the complete Python Course'
+str3 = """This is a
+       multiline 
+       String"""
+print(str1)
+print(str2)
+print(str3)
+
+# Indexing : String starts with 0th Index
+
+s= "Captain America"
+print(s[4])
+
+#Slicing : slice(start, stop, step), it returns a sliced object containing elements in the given range
+
+s= "Captain America"
+print(s[1:5:2])
+
+#Reverse
+
+print(s[::-1])
