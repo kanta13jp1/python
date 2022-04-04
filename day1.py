@@ -87,3 +87,9 @@ print(s[1:5:2])
 #Reverse
 
 print(s[::-1])
+
+#capitalize() method : Returns a copy of the string with its first 
+#character capitalized and the rest lowercased
+
+a = "complete python course" 
+print(a.capitalize())
