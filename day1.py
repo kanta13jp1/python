@@ -93,3 +93,10 @@ print(s[::-1])
 
 a = "complete python course" 
 print(a.capitalize())
+
+#centre(width[, fillchar])   : Returns the string centered in a 
+#string of length width
+
+a = "Python" 
+b = a.center(10, "*")
+print(b)
