@@ -229,3 +229,7 @@ print(a.lstrip("*"))
 a = "Hi World"
 print(a.rindex("d"))
 print(a.rindex("W"))
+
+a = "abcabc"
+print(a.index("a"))
+print(a.rindex("a"))
