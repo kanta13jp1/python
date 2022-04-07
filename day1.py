@@ -136,3 +136,11 @@ a = "Continent"
 print(a.index("i"))
 print(a.index("C"))
 print(a.index("nent"))
+
+# isalnum() : Returns True if all characters in the string are 
+#alphanumeric, else returns False
+
+c = "456"
+d = "$*%!!**"
+print(c.isalnum())
+print(d.isalnum())
