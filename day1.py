@@ -102,7 +102,15 @@ b = a.center(10, "*")
 print(b)
 
 # casefold() method : Returns a casefolded copy of the string. 
-# Casefolded strings may be used for caseless matching
+#Casefolded strings may be used for caseless matching
 
 a = "PYTHON"
 print(a.casefold())
+
+# count(sub[, start[, end]]) : Returns the number of non-overlapping 
+#occurrences of substring (sub) in the range [start, end]
+
+a = "Welcome to complete Python Course"
+print(a.count("c"))
+print(a.count("o"))
+print(a.count("Python"))
