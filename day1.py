@@ -160,3 +160,11 @@ c = u"\u00B10"
 x = "10"
 print(c.isdecimal())
 print(x.isdecimal())
+
+# isdigit() : Returns True if all characters in the string are 
+#digits, else returns False
+
+c = "4567"
+d = "1.65"
+print(c.isdigit())
+print(d.isdigit())
