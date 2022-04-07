@@ -203,3 +203,9 @@ print(a.split(","))
 
 a = "***Python***"
 print(a.strip("*"))
+
+# swapcase() : Returns a copy of the string with uppercase 
+#characters converted to lowercase and vice versa
+
+a = "Hi Homies"
+print(a.swapcase())
