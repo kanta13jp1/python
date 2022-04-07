@@ -168,3 +168,11 @@ c = "4567"
 d = "1.65"
 print(c.isdigit())
 print(d.isdigit())
+
+# join(iterable) : Returns a string which is the concatenation of 
+#the strings in iterable. 
+# A TypeError will be raised if there are any non-string values in 
+#iterable
+
+a = ","
+print(a.join("CD"))
