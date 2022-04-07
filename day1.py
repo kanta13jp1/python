@@ -100,3 +100,9 @@ print(a.capitalize())
 a = "Python" 
 b = a.center(10, "*")
 print(b)
+
+# casefold() method : Returns a casefolded copy of the string. 
+# Casefolded strings may be used for caseless matching
+
+a = "PYTHON"
+print(a.casefold())
