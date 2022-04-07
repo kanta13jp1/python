@@ -122,3 +122,9 @@ a = "Watermelon"
 print(a.endswith("s"))
 print(a.endswith("melon"))
 
+# find(sub[, start[, end]]) : Returns the lowest index in the string 
+# where substring sub is found within the slice s[start:end]
+
+a = "Exercise"
+print(a.find("r"))
+print(a.find("e"))
