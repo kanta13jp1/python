@@ -144,3 +144,11 @@ c = "456"
 d = "$*%!!**"
 print(c.isalnum())
 print(d.isalnum())
+
+# isalpha() : Returns True if all characters in the string are 
+#alphabetic, else returns False
+
+c = "456"
+d = "Python"
+print(c.isalpha())
+print(d.isalpha())
