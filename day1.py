@@ -209,3 +209,16 @@ print(a.strip("*"))
 
 a = "Hi Homies"
 print(a.swapcase())
+
+# zfill(width) : Returns a copy of the string left filled with ASCII 
+#0 digits to make a string of length width
+
+a = "-124"
+print(a.zfill(6))
+
+# lstrip([chars]) : Return a copy of the string with leading 
+#characters removed.The chars argument is a string specifying the 
+#set of characters to be removed.
+
+a = "*****Python-----"
+print(a.lstrip("*"))
