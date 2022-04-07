@@ -152,3 +152,11 @@ c = "456"
 d = "Python"
 print(c.isalpha())
 print(d.isalpha())
+
+# isdecimal() : Returns True if all characters in the string are 
+#decimal characters, else returns False
+
+c = u"\u00B10"
+x = "10"
+print(c.isdecimal())
+print(x.isdecimal())
