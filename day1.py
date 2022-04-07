@@ -114,3 +114,11 @@ a = "Welcome to complete Python Course"
 print(a.count("c"))
 print(a.count("o"))
 print(a.count("Python"))
+
+# endswith(suffix[, start[, end]]) : Returns True if the string ends 
+#with the specified suffix, otherwise it returns False
+
+a = "Watermelon"
+print(a.endswith("s"))
+print(a.endswith("melon"))
+
