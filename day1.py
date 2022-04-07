@@ -222,3 +222,10 @@ print(a.zfill(6))
 
 a = "*****Python-----"
 print(a.lstrip("*"))
+
+# rindex(sub[, start[, end]]) : Just like rfind() but raises 
+#ValueError when the substring sub is not found
+
+a = "Hi World"
+print(a.rindex("d"))
+print(a.rindex("W"))
