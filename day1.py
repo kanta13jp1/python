@@ -184,3 +184,22 @@ print(a.join("CD"))
 a = "Complete.Python-course"
 print(a.partition("-"))
 print(a.partition("."))
+
+# split(sep=None, maxsplit=-1) : Returns a list of the words in the 
+#string,using sep as the delimiter strip.If maxsplit is given,at 
+#most maxsplit splits are done.If maxsplit is not specified or -1, 
+#then there is no limit on the number of splits.
+
+a = "Welcome,,Friends,,,,,,,,,,,,"
+print(a.split(",",0))
+print(a.split(",",1))
+print(a.split(",",2))
+print(a.split(",",3))
+print(a.split(","))
+
+# strip([chars]) : Returns a copy of the string with leading and 
+#trailing characters removed. The chars argument is a string 
+#specifying the set of characters to be removed
+
+a = "***Python***"
+print(a.strip("*"))
