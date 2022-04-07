@@ -176,3 +176,11 @@ print(d.isdigit())
 
 a = ","
 print(a.join("CD"))
+
+# partition(sep) : Splits the string at the first occurrence of sep, 
+#and returns a 3-tuple containing the part before the separator, the 
+#separator itself, and the part after the separator
+
+a = "Complete.Python-course"
+print(a.partition("-"))
+print(a.partition("."))
