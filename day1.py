@@ -128,3 +128,11 @@ print(a.endswith("melon"))
 a = "Exercise"
 print(a.find("r"))
 print(a.find("e"))
+
+# index(sub[, start[, end]]) : Similar to find function, except that 
+# it raises a ValueError when the substring is not found
+
+a = "Continent"
+print(a.index("i"))
+print(a.index("C"))
+print(a.index("nent"))
