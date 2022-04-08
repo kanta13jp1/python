@@ -233,3 +233,15 @@ print(a.rindex("W"))
 a = "abcabc"
 print(a.index("a"))
 print(a.rindex("a"))
+
+def max_no(x,y):
+    return x if x>y else y
+f_no= 12
+s_no =25
+print(f'Max of {f_no} and {s_no} is {max(f_no,s_no)}')
+
+from decimal import Decimal
+width = 4
+round_point = 2
+value = Decimal('12.39065')
+print(f'result:{value:{width}.{round_point}}')
