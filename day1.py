@@ -306,3 +306,31 @@ print("Or result:",(x or y))
 
 #Not
 print("Not result:",(not y))
+
+# Bitwise operators
+x = 1001
+y = 1010
+
+print(x)
+print(y)
+print(type(x))
+print(type(y))
+
+
+#And
+print("And result:",(x & y))
+
+#Or
+print("Or result:",(x | y))
+
+#Not
+print("Not result:",(~y))
+
+#Xor
+print("XOR result:",(x^y))
+
+#Bitwise right shift
+print("Bitwise right shift result:",(x>>2))
+
+#Bitwise left shift
+print("Bitwise left shift result:",(x<<2))
