@@ -334,3 +334,30 @@ print("Bitwise right shift result:",(x>>2))
 
 #Bitwise left shift
 print("Bitwise left shift result:",(x<<2))
+
+# Assignment operators : used in Python to assign values to variables
+
+x=5
+print(x)
+x+=5
+print(x)
+x-=2
+print(x)
+x*=2
+print(x)
+x**=2
+print(x)
+
+# Identity Operator : is and is not are the identity operators in Python
+
+x=5
+y=5
+z='a'
+print("Is operator result:", (x is y))
+print("Not is operator result:", (y is not z))
+
+#Membership operator : in operator
+
+x = 'Python Course'
+print('y' in x)
+print('a' in x)
