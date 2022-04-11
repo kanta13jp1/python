@@ -292,3 +292,17 @@ print("Not equal to:",x!=y)
 
 #Equal to
 print("Equal to:",x==y)
+
+#Logical Operators : and, or, not [Result is either True or False]
+
+x= True
+y= False
+
+#And
+print("And result:",(x and y))
+
+#Or
+print("Or result:",(x or y))
+
+#Not
+print("Not result:",(not y))
