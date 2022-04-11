@@ -270,3 +270,25 @@ print("Floor Division:",x//y)
 
 #Exponent
 print("Exponent:",x**y)
+
+#Comparison Operator  : Result is either True or False
+x=5
+y=3
+
+#Greater than
+print("Greater than:",x>y)
+
+#Less than
+print("Greater than:",x<y)
+
+#Greater than equal to 
+print("Greater than equal to:",x>=y)
+
+#less than equal to
+print("Less than:",x<=y)
+
+#Not equal to 
+print("Not equal to:",x!=y)
+
+#Equal to
+print("Equal to:",x==y)
