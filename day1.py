@@ -245,3 +245,28 @@ width = 4
 round_point = 2
 value = Decimal('12.39065')
 print(f'result:{value:{width}.{round_point}}')
+
+#Arithmatic Operators
+x=20
+y=4
+
+#Addition
+print("Addition:",x+y)
+
+#Subtraction
+print("Subtraction:",x-y)
+
+#Multiply
+print("Multiply: ",x*y)
+
+#Division
+print("Division:",x/y)
+
+#Modulus
+print("Modulus:",x%y)
+
+#Floor Division
+print("Floor Division:",x//y)
+
+#Exponent
+print("Exponent:",x**y)
