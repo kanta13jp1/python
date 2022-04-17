@@ -361,3 +361,13 @@ print("Not is operator result:", (y is not z))
 x = 'Python Course'
 print('y' in x)
 print('a' in x)
+
+#Chaining Comparison operators with Logical operators
+
+a, b, c, d, e, f, g = 10, 15, 2, 1, 45, 25, 19
+e1 = a <= b < c > d < e is not f is g
+e2 = a is d < f is c
+
+print(e1)
+print(e2)
+
