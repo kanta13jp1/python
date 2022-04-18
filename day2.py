@@ -8,3 +8,7 @@ print(type(list_one))
 
 print(len(list_one))
 
+# List with different data types
+
+list_two = ['abc',67,True,3.14,"female"]
+print(list_two)
