@@ -12,3 +12,21 @@ print(len(list_one))
 
 list_two = ['abc',67,True,3.14,"female"]
 print(list_two)
+
+#type() with List
+print(type(list_two))
+
+#list() constructor to make a List
+
+list_cons = list(("hello","World","Beautiful","Day"))
+print(list_cons)
+
+# nested list
+
+list_nest= ["hello",[8,4,6],['World']]
+print(list_nest)
+
+#slice lists in Python : Use the slicing operator :(colon)
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+print(list_one[1:4])
