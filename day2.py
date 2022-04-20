@@ -30,3 +30,10 @@ print(list_nest)
 
 list_one = ["sunday","monday","tuesday","wednesday","thursday"]
 print(list_one[1:4])
+
+#Add/Change List Elements : use the assignment operator = to change 
+#an item
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one[3] = 'friday'
+print(list_one)
