@@ -37,3 +37,15 @@ print(list_one[1:4])
 list_one = ["sunday","monday","tuesday","wednesday","thursday"]
 list_one[3] = 'friday'
 print(list_one)
+
+# Appending and Extending lists in Python : Use the append() or 
+#extend() method
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.append('friday')
+print(list_one)
+
+#extend
+
+list_one.extend(['saturday'])
+print(list_one)
