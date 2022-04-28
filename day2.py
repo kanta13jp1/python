@@ -49,3 +49,13 @@ print(list_one)
 
 list_one.extend(['saturday'])
 print(list_one)
+
+# Concatenating and repeat lists : use + operator to concate two 
+#lists and use * operator to repeat lists
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+print(list_one + [0,1,2,3,4])
+
+#repeat operation 
+print(['a','b']*2)
+
