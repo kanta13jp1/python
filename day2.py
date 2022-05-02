@@ -59,3 +59,19 @@ print(list_one + [0,1,2,3,4])
 #repeat operation 
 print(['a','b']*2)
 
+# Delete/Remove List Elements : delete one or more items or entire list using the keyword del
+
+del list_one[2]
+print(list_one)
+
+#remove method : remove the given item or pop() method to remove an item at the given index location
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.remove("tuesday")
+print(list_one)
+
+#pop method
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.pop(2)
+print("Pop result:", list_one)
