@@ -75,3 +75,39 @@ print(list_one)
 list_one = ["sunday","monday","tuesday","wednesday","thursday"]
 list_one.pop(2)
 print("Pop result:", list_one)
+
+# index() method : Returns the index of the first matched item
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+print(list_one.index("tuesday"))
+
+# sort() method: Sort items in a list in ascending order
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.sort()
+print(list_one)
+
+# reverse() : Reverse the order of items in the list
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.reverse()
+print(list_one)
+
+# copy(): Returns a shallow copy of the list
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_two = list_one.copy()
+print(list_two)
+
+#Membership : check if an item exists in a list or not, using the keyword in
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+print('tuesday' in list_one)
+
+# insert() method : insert item at a desired location
+
+list_one = ["sunday","monday","tuesday","wednesday","thursday"]
+list_one.insert(2,'friday')
+print(list_one)
+
+
