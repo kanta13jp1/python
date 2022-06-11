@@ -110,4 +110,7 @@ list_one = ["sunday","monday","tuesday","wednesday","thursday"]
 list_one.insert(2,'friday')
 print(list_one)
 
+sqr = [2**x for x in range(20)]
+print(sqr)
+
 
