@@ -1,4 +1,5 @@
 # Python Pop Quiz
+from re import X
 import numpy as np
 
 language = "Python"
@@ -69,3 +70,30 @@ print(A[:, :, 0])
 print(A[..., 0])
 
 print(A[Ellipsis, 0])
+
+# quiz
+
+def test():
+    x = 7, 8, 9
+
+    return sorted(x) == x
+
+print(test())
+
+x = 7, 8, 9
+
+print(x)
+print(type(x))
+
+print(sorted(x))
+print(type(sorted(x)))
+
+x = [7, 8, 9]
+print(sorted(x) == x)
+
+x = 7, 9, 8
+print(x)
+print(sorted(x))
+
+x = [7, 9, 8]
+print(sorted(x) == x)
