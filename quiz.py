@@ -1,4 +1,5 @@
 # Python Pop Quiz
+import numpy as np
 
 language = "Python"
 class Snake:
@@ -47,3 +48,24 @@ class Snake:
 print(Snake.language)
 print(language)
 print(id(language), id(Snake.language))
+
+
+def my_function():
+    Ellipsis
+
+print(my_function())
+
+def foo(x = ...):
+    return x
+
+print(foo())
+
+A = np.random.rand(2, 2, 2)
+
+print(A)
+
+print(A[:, :, 0])
+
+print(A[..., 0])
+
+print(A[Ellipsis, 0])
