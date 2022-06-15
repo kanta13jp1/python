@@ -97,3 +97,41 @@ print(sorted(x))
 
 x = [7, 9, 8]
 print(sorted(x) == x)
+
+
+class Number:
+    integers = [5, 6, 7]
+    for i in integers:
+        i * 2
+    for j in integers:
+        j = j * 2
+print(Number.i)
+
+print(vars(Number))
+
+a = 30000
+b = 30000
+print(a is b)
+print(id(a), id(b))
+
+a = 3000
+b = 3000
+print(a is b)
+print(id(a), id(b))
+
+a = 300
+b = 300
+print(a is b)
+print(id(a), id(b))
+
+a = 2
+b = 2
+print(a == b)
+print(id(a), id(b))
+
+print(len("".split(" ")))
+print("".split(" "))
+print(len("".split(";")))
+print("".split(";"))
+print(len("".split()))
+print("".split())
