@@ -17,3 +17,12 @@ print(my_list)
 my_list.append('d')
 
 print(my_list)
+
+class Engineer:
+    def __init__(self, name):
+        self.name = name
+        self.__starting_salary = 62000
+
+dain = Engineer('Dain')
+print(dain.name)
+print(dain._Engineer__starting_salary)
