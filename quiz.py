@@ -135,3 +135,17 @@ print(len("".split(";")))
 print("".split(";"))
 print(len("".split()))
 print("".split())
+
+print(1 > (0 < 1))
+
+print(1 > (True))
+
+print(issubclass(bool, int))
+
+print(isinstance(True, int))
+
+print(True == 1)
+
+print(False == 0)
+
+print(1 > 0 < 1)
