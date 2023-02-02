@@ -23,7 +23,17 @@ user_list = {
    'yamamototaro0',
    'katayama_s',
    'tamakiyuichiro',
-   'SekoHiroshige'
+   'SekoHiroshige',
+   'miosugita',
+   'KishiNobuo',
+   'kharaguchi',
+   'mizuhofukushima',
+   'ozawa_jimusho',
+   'shiikazuo',
+   'shigeruishiba',
+   'koike_akira',
+   'adachiyasushi',
+   'edanoyukio0531'
 }
 
 members_list = []
