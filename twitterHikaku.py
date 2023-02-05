@@ -30,11 +30,11 @@ for screen_name in user_list:
     user = api.get_user(screen_name=screen_name)
     
     if user.name == '立憲民主党':
-        rikken_follower = user.followers_count
-        user_info = [user.name, '@' + user.screen_name, user.followers_count, user.followers_count - 191702]
+        rikken_follower: int = user.followers_count
+        user_info = [user.name, '@' + user.screen_name, rikken_follower, rikken_follower - 191680]
     else:
-        kokumin_follower = user.followers_count
-        user_info = [user.name, '@' + user.screen_name, user.followers_count, user.followers_count - 56093]
+        kokumin_follower: int = user.followers_count
+        user_info = [user.name, '@' + user.screen_name, kokumin_follower, kokumin_follower - 56173]
     print(user_info)
     members_list.append(user_info)
 
@@ -42,7 +42,7 @@ print(f'{rikken_follower} and {kokumin_follower}')
 
 sabun = (rikken_follower - kokumin_follower)
 print(sabun)
-user_info = ['差分', sabun, sabun - 135609]
+user_info = ['差分','', sabun, sabun - 135507]
 
 from operator import itemgetter
 
