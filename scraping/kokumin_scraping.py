@@ -2,6 +2,7 @@ import bs4
 import requests
 import textwrap
 import time
+import pymongo
 
 # 全ページ分をリストにする
 
@@ -55,17 +56,26 @@ if __name__ == '__main__':
     # レビューの取得
     print(new_url)
     rvw_list = get_all_reviews(new_url)
-    f = open('myfile.txt', 'w', encoding='UTF-8')
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["test"]
+    mycol = mydb["test"]
+    # f = open('myfile.txt', 'w', encoding='UTF-8')
     # 全データを表示
     for i in range(len(rvw_list)):
         rvw_text = textwrap.fill(rvw_list[i].text, 80)
-        print('\nNo.{} : '.format(i+1))
-        f.write('\nNo.{} : '.format(i+1))
-        f.write('\n')
+        # print('\nNo.{} : '.format(i+1))
+        # f.write('\nNo.{} : '.format(i+1))
+        # f.write('\n')
         # print(rvw_text)
-        print(rvw_text.replace('     ', '').replace(
-            '  ', '\n').replace(' 2', '\n 2').replace('票 ', '票\n '))
-        f.write(rvw_text.replace('     ', '').replace(
-            '  ', '\n').replace(' 2', '\n 2').replace('票 ', '票\n '))
-        f.write('\n')
-    f.close()
+        # print(rvw_text.replace('     ', '').replace(
+        #     '  ', '\n').replace(' 2', '\n 2').replace('票 ', '票\n '))
+        # f.write(rvw_text.replace('     ', '').replace(
+        #     '  ', '\n').replace(' 2', '\n 2').replace('票 ', '票\n '))
+        # f.write('\n')
+        data = rvw_text.replace('     ', '').replace(
+            '  ', '\n').replace(' 2', '\n 2').replace('票 ', '票\n ')
+        mydict = {"No": format(i+1), "data": data}
+        print(mydict)
+        x = mycol.insert_one(mydict)
+        print(x)
+    # f.close()

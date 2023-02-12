@@ -2,6 +2,7 @@ import bs4
 import requests
 import textwrap
 import time
+import pymongo
 
 # 全ページ分をリストにする
 
@@ -47,3 +48,20 @@ if __name__ == '__main__':
         rvw_text = textwrap.fill(rvw_list[i].text, 80)
         print('\nNo.{} : '.format(i+1))
         print(rvw_text)
+
+    # 全データをMongoDBに入れる
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["test"]
+    mycol = mydb["test"]
+
+    # mydict = {"name": "John", "address": "Highway 37"}
+
+    # x = mycol.insert_one(mydict)
+    # print(x)
+    for i in range(len(rvw_list)):
+        print(rvw_list[i].text)
+        rvw_text = textwrap.fill(rvw_list[i].text, 80)
+        mydict = {"text": rvw_text}
+        print(mydict)
+        x = mycol.insert_one(mydict)
+        print(x)
