@@ -12,4 +12,6 @@ if __name__ == "__main__":
 
     # _idは除外
     df = df.drop(columns='_id')
-    print(df.duplicated().value_counts())
+
+    df_clean = df.drop_duplicates()
+    print(len(df_clean))

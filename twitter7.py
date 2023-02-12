@@ -1,3 +1,4 @@
+from operator import itemgetter
 import tweepy
 import pandas as pd
 import os
@@ -429,7 +430,7 @@ user_list = {
     '8no_no_no8',
     'hasegawa_takako',
     'koji_oashi',
-    'f7SYmFBYMivVBCE',
+    'dpfp_fukushima',
     'mike_kza53',
     'okitsutokyo',
     'nozomi_ngsk',
@@ -631,10 +632,9 @@ for screen_name in user_list:
     # print(user)
     user_info = [user.name, '@' + user.screen_name, user.followers_count]
     # print(user_info)
-    if (user.statuses_count >= 10 ):
+    if (user.statuses_count >= 10):
         members_list.append(user_info)
 
-from operator import itemgetter
 
 sorted_list = sorted(members_list, key=itemgetter(2), reverse=True)
 print(*sorted_list, sep='\n')
@@ -679,7 +679,7 @@ print(*sorted_list, sep='\n')
 
 # フォローしている人の取得
 # print('フォローしている人を取得中...', end='')
-# itr = tweepy.Cursor(api.get_friend_ids, user_id=user_id, cursor=-1).items() 
+# itr = tweepy.Cursor(api.get_friend_ids, user_id=user_id, cursor=-1).items()
 # for following_id in itr:
 #     record = pd.Series([following_id], index=following_ids.columns)
 #     following_ids = following_ids.append(record, ignore_index=True)
@@ -710,6 +710,8 @@ try:
     os.makedirs(dir)
 except FileExistsError:
     pass
-df = pd.DataFrame(sorted_list, columns=['name', 'screen_name', 'followers_count'])
-df.to_csv(dir + '/sorted_users_' + datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
+df = pd.DataFrame(sorted_list, columns=[
+                  'name', 'screen_name', 'followers_count'])
+df.to_csv(dir + '/sorted_users_' +
+          datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
 # removed_users.to_csv(dir + '/removed_users_' + datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
