@@ -3,7 +3,7 @@ import csv
 # import pandas as pd
 
 # CSVファイルの読み込み
-with open('target.csv', 'r', encoding="utf-8") as f:
+with open('json_csv/target.csv', 'r', encoding="utf-8") as f:
     dreader = csv.DictReader(f)
     d_list = [row for row in dreader]
     print(d_list)
@@ -18,5 +18,5 @@ json_text = json.dumps(d_list, indent=2, ensure_ascii=False)
 print(json_text)
 
 # JSONファイルへの書き込み
-with open('output.json', 'w', encoding='utf-8') as f:
+with open('json_csv/output.json', 'w', encoding='utf-8') as f:
     json.dump(d_list, f, indent=2, ensure_ascii=False)

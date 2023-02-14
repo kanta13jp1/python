@@ -15,6 +15,14 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 
 user_list = {
     'hashimoto_lo',
+    'hyakukei',
+    'akiyoshi1625',
+    'msakamoto1971',
+    'doikousuke',
+    'kou_mizuochi',
+    'ishiharaseiji21',
+    'Shunichirou_S',
+    'KandaMihokms',
     'taueta77',
     'Naxako75',
     'kokumin_okayama',

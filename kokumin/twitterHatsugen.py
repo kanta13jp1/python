@@ -14,7 +14,6 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 user_list = {
-    'hashimoto_lo',
     'kokumin_okayama',
     'kokumin_toyama',
     'kokumin_kyoto',
@@ -53,15 +52,21 @@ members_list = []
 for screen_name in user_list:
     print(screen_name)
     user = api.get_user(screen_name=screen_name)
-    user_info = [user.name, '@' + user.screen_name,
-                 user.statuses_count, user.followers_count]
+    # print(user)
+    if (hasattr(user, 'status')):
+        print(user.status.created_at)
+        user_info = [user.name, '@' + user.screen_name,
+                     user.statuses_count, user.status.created_at]
+    else:
+        user_info = [user.name, '@' + user.screen_name,
+                     user.statuses_count, user.created_at]
     # print(user_info)
     # if (user.description == '' and user.statuses_count != 0):
     members_list.append(user_info)
 
 
-sorted_list = sorted(members_list, key=itemgetter(2), reverse=True)
-print(*sorted_list, sep='\n')
+sorted_list = sorted(members_list, key=itemgetter(3), reverse=True)
+# print(*sorted_list, sep='\n')
 # def follower_counts_func(acount):
 #    followers_list = []
 #    i = 0

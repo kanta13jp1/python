@@ -1,6 +1,37 @@
 [
   {
-    "id": 54,
+    "id": "0",
+    "candidatePrefecture": "都道府県",
+    "election": "選挙名",
+    "electiondistrict": "選挙区名",
+    "teisu": "定数",
+    "name": "候補者名",
+    "kana": "フリガナ",
+    "gender": "性別",
+    "age": "年齢",
+    "newcomer": "現元新",
+    "continuecount": "期数",
+    "touseki": "党籍",
+    "license": "公認\n推薦",
+    "kokujibi": "告示日",
+    "tohyobi": "投票日",
+    "tousen": "当選",
+    "twitter": "twitter",
+    "candidatedistrictblock": "ブロック",
+    "localcandidate": "地方選候補者",
+    "birthday": "誕生日",
+    "portal": "ポータル",
+    "candidatedistrict": "立候補自治体",
+    "image": "画像",
+    "hp": "HP名称",
+    "url": "HPURL",
+    "instagram": "instagram",
+    "facebook": "facebook",
+    "almaMater": "出身校",
+    "detail": "経歴"
+  },
+  {
+    "id": "54",
     "candidatePrefecture": "三重県",
     "election": "津市議会議員選挙",
     "electiondistrict": "",
@@ -31,7 +62,7 @@
     "detail": ""
   },
   {
-    "id": 55,
+    "id": "55",
     "candidatePrefecture": "栃木県",
     "election": "壬生町議会議員選挙",
     "electiondistrict": "",
@@ -62,7 +93,7 @@
     "detail": ""
   },
   {
-    "id": 56,
+    "id": "56",
     "candidatePrefecture": "福井県",
     "election": "坂井市議会議員選挙",
     "electiondistrict": "",
@@ -93,7 +124,7 @@
     "detail": ""
   },
   {
-    "id": 57,
+    "id": "57",
     "candidatePrefecture": "大阪府",
     "election": "河内長野市議会議員選挙",
     "electiondistrict": "",
@@ -124,7 +155,7 @@
     "detail": ""
   },
   {
-    "id": 58,
+    "id": "58",
     "candidatePrefecture": "愛媛県",
     "election": "松山市議会議員選挙",
     "electiondistrict": "",
@@ -155,7 +186,7 @@
     "detail": ""
   },
   {
-    "id": 59,
+    "id": "59",
     "candidatePrefecture": "千葉県",
     "election": "野田市議会議員選挙",
     "electiondistrict": "",
@@ -186,7 +217,7 @@
     "detail": ""
   },
   {
-    "id": 60,
+    "id": "60",
     "candidatePrefecture": "長崎県",
     "election": "南島原市議会議員選挙",
     "electiondistrict": "",
@@ -217,7 +248,7 @@
     "detail": ""
   },
   {
-    "id": 61,
+    "id": "61",
     "candidatePrefecture": "東京都",
     "election": "立川市議会議員選挙",
     "electiondistrict": "",
@@ -248,7 +279,7 @@
     "detail": ""
   },
   {
-    "id": 62,
+    "id": "62",
     "candidatePrefecture": "福井県",
     "election": "越前市議会議員選挙",
     "electiondistrict": "",
@@ -279,7 +310,7 @@
     "detail": ""
   },
   {
-    "id": 63,
+    "id": "63",
     "candidatePrefecture": "滋賀県",
     "election": "長浜市議会議員選挙",
     "electiondistrict": "",
@@ -310,7 +341,7 @@
     "detail": ""
   },
   {
-    "id": 64,
+    "id": "64",
     "candidatePrefecture": "新潟県",
     "election": "胎内市議会議員選挙",
     "electiondistrict": "",
@@ -341,7 +372,7 @@
     "detail": ""
   },
   {
-    "id": 65,
+    "id": "65",
     "candidatePrefecture": "茨城県",
     "election": "茨城県議会議員選挙",
     "electiondistrict": "ひたちなか市",
@@ -372,7 +403,7 @@
     "detail": ""
   },
   {
-    "id": 66,
+    "id": "66",
     "candidatePrefecture": "茨城県",
     "election": "茨城県議会議員選挙",
     "electiondistrict": "日立市",
@@ -403,7 +434,7 @@
     "detail": ""
   },
   {
-    "id": 67,
+    "id": "67",
     "candidatePrefecture": "茨城県",
     "election": "茨城県議会議員選挙",
     "electiondistrict": "日立市",
@@ -434,7 +465,7 @@
     "detail": ""
   },
   {
-    "id": 68,
+    "id": "68",
     "candidatePrefecture": "千葉県",
     "election": "八千代市議会議員選挙",
     "electiondistrict": "",
@@ -465,7 +496,7 @@
     "detail": ""
   },
   {
-    "id": 69,
+    "id": "69",
     "candidatePrefecture": "福岡県",
     "election": "福津市議会議員選挙",
     "electiondistrict": "",
@@ -496,7 +527,7 @@
     "detail": ""
   },
   {
-    "id": 70,
+    "id": "70",
     "candidatePrefecture": "東京都",
     "election": "西東京市議会議員選挙",
     "electiondistrict": "",
@@ -527,7 +558,7 @@
     "detail": ""
   },
   {
-    "id": 71,
+    "id": "71",
     "candidatePrefecture": "茨城県",
     "election": "かすみがうら市議会議員選挙",
     "electiondistrict": "",
@@ -558,7 +589,7 @@
     "detail": ""
   },
   {
-    "id": 72,
+    "id": "72",
     "candidatePrefecture": "愛知県",
     "election": "田原市議会議員選挙",
     "electiondistrict": "",
@@ -589,7 +620,7 @@
     "detail": ""
   },
   {
-    "id": 73,
+    "id": "73",
     "candidatePrefecture": "静岡県",
     "election": "焼津市議会議員選挙",
     "electiondistrict": "",
@@ -620,7 +651,7 @@
     "detail": ""
   },
   {
-    "id": 74,
+    "id": "74",
     "candidatePrefecture": "宮崎県",
     "election": "門川町議会議員選挙",
     "electiondistrict": "",
@@ -651,7 +682,7 @@
     "detail": ""
   },
   {
-    "id": 75,
+    "id": "75",
     "candidatePrefecture": "愛知県",
     "election": "愛知県議会議員選挙",
     "electiondistrict": "名古屋市千種区",
@@ -682,7 +713,7 @@
     "detail": ""
   },
   {
-    "id": 76,
+    "id": "76",
     "candidatePrefecture": "愛知県",
     "election": "愛知県議会議員選挙",
     "electiondistrict": "名古屋市守山区",
@@ -713,7 +744,7 @@
     "detail": ""
   },
   {
-    "id": 77,
+    "id": "77",
     "candidatePrefecture": "愛知県",
     "election": "愛知県議会議員選挙",
     "electiondistrict": "名古屋市名東区",
@@ -744,7 +775,7 @@
     "detail": ""
   },
   {
-    "id": 78,
+    "id": "78",
     "candidatePrefecture": "愛知県",
     "election": "名古屋市議会議員選挙",
     "electiondistrict": "西区",
@@ -775,7 +806,7 @@
     "detail": ""
   },
   {
-    "id": 79,
+    "id": "79",
     "candidatePrefecture": "愛知県",
     "election": "名古屋市議会議員選挙",
     "electiondistrict": "千種区",
@@ -806,7 +837,7 @@
     "detail": ""
   },
   {
-    "id": 80,
+    "id": "80",
     "candidatePrefecture": "愛知県",
     "election": "名古屋市議会議員選挙",
     "electiondistrict": "守山区",
@@ -837,7 +868,7 @@
     "detail": ""
   },
   {
-    "id": 81,
+    "id": "81",
     "candidatePrefecture": "愛知県",
     "election": "名古屋市議会議員選挙",
     "electiondistrict": "名東区",
@@ -868,7 +899,7 @@
     "detail": ""
   },
   {
-    "id": 82,
+    "id": "82",
     "candidatePrefecture": "山口県",
     "election": "山口県議会議員選挙",
     "electiondistrict": "周南市",
@@ -899,7 +930,7 @@
     "detail": ""
   },
   {
-    "id": 83,
+    "id": "83",
     "candidatePrefecture": "宮崎県",
     "election": "宮崎県議会議員選挙",
     "electiondistrict": "宮崎市",
@@ -930,7 +961,7 @@
     "detail": ""
   },
   {
-    "id": 84,
+    "id": "84",
     "candidatePrefecture": "宮崎県",
     "election": "宮崎県議会議員選挙",
     "electiondistrict": "延岡市",
@@ -961,7 +992,7 @@
     "detail": ""
   },
   {
-    "id": 85,
+    "id": "85",
     "candidatePrefecture": "埼玉県",
     "election": "さいたま市議会議員選挙",
     "electiondistrict": "南区",
@@ -992,7 +1023,7 @@
     "detail": ""
   },
   {
-    "id": 86,
+    "id": "86",
     "candidatePrefecture": "鹿児島県",
     "election": "鹿児島県議会議員選挙",
     "electiondistrict": "鹿児島市・鹿児島郡区",
@@ -1023,7 +1054,7 @@
     "detail": ""
   },
   {
-    "id": 87,
+    "id": "87",
     "candidatePrefecture": "岐阜県",
     "election": "岐阜県議会議員選挙",
     "electiondistrict": "大垣市",
@@ -1054,7 +1085,7 @@
     "detail": ""
   },
   {
-    "id": 88,
+    "id": "88",
     "candidatePrefecture": "岐阜県",
     "election": "岐阜県議会議員選挙",
     "electiondistrict": "各務原市",
@@ -1085,7 +1116,7 @@
     "detail": ""
   },
   {
-    "id": 89,
+    "id": "89",
     "candidatePrefecture": "岐阜県",
     "election": "岐阜県議会議員選挙",
     "electiondistrict": "可児市",
@@ -1116,7 +1147,7 @@
     "detail": ""
   },
   {
-    "id": 90,
+    "id": "90",
     "candidatePrefecture": "愛媛県",
     "election": "愛媛県議会議員選挙",
     "electiondistrict": "松山市・上浮穴郡",
@@ -1147,7 +1178,7 @@
     "detail": "1997年　松山大学人文学部英語英米文学科卒業\n1998年　株式会社Egg & Chick入社\n2000年　株式会社コンベックス入社\n2018年　株式会社ミライ・ラボ創業\n大学卒業後、子ども英語教室講師を経て、採用コンサルティング会社に創業メンバーとして参画。中小企業の新卒・中途採用サポートや、大学生の就職支援業務等に約１２年従事。 その後、2018年10月に「自ら考え、自ら選び、自ら学ぶ」“教えない”学習塾「STUDY BASEミライ∞ラボ」を開校し5年目。\n株式会社ミライ・ラボ 代表取締役\nNPO法人こどものみらいプロジェクトゆめドリ愛媛サテライト 副事務局長\nカナエルエヒメ 代表"
   },
   {
-    "id": 91,
+    "id": "91",
     "candidatePrefecture": "島根県",
     "election": "島根県議会議員選挙",
     "electiondistrict": "松江市",
@@ -1178,7 +1209,7 @@
     "detail": ""
   },
   {
-    "id": 92,
+    "id": "92",
     "candidatePrefecture": "長崎県",
     "election": "長崎県議会議員選挙",
     "electiondistrict": "長崎市",
@@ -1209,7 +1240,7 @@
     "detail": ""
   },
   {
-    "id": 93,
+    "id": "93",
     "candidatePrefecture": "長崎県",
     "election": "長崎県議会議員選挙",
     "electiondistrict": "諫早市",
@@ -1240,7 +1271,7 @@
     "detail": ""
   },
   {
-    "id": 94,
+    "id": "94",
     "candidatePrefecture": "香川県",
     "election": "香川県議会選挙",
     "electiondistrict": "高松市",
@@ -1271,7 +1302,7 @@
     "detail": ""
   },
   {
-    "id": 95,
+    "id": "95",
     "candidatePrefecture": "香川県",
     "election": "香川県議会選挙",
     "electiondistrict": "高松市",
@@ -1302,7 +1333,7 @@
     "detail": ""
   },
   {
-    "id": 96,
+    "id": "96",
     "candidatePrefecture": "香川県",
     "election": "香川県議会選挙",
     "electiondistrict": "東かがわ市",
@@ -1333,7 +1364,7 @@
     "detail": ""
   },
   {
-    "id": 97,
+    "id": "97",
     "candidatePrefecture": "香川県",
     "election": "香川県議会選挙",
     "electiondistrict": "観音寺市",
@@ -1364,7 +1395,7 @@
     "detail": ""
   },
   {
-    "id": 98,
+    "id": "98",
     "candidatePrefecture": "静岡県",
     "election": "浜松市議会議員選挙",
     "electiondistrict": "南区",
@@ -1395,7 +1426,7 @@
     "detail": ""
   },
   {
-    "id": 99,
+    "id": "99",
     "candidatePrefecture": "福岡県",
     "election": "福岡県議会議員選挙",
     "electiondistrict": "南区",
@@ -1426,7 +1457,7 @@
     "detail": ""
   },
   {
-    "id": 100,
+    "id": "100",
     "candidatePrefecture": "福岡県",
     "election": "福岡県議会議員選挙",
     "electiondistrict": "城南区",
@@ -1457,7 +1488,7 @@
     "detail": ""
   },
   {
-    "id": 101,
+    "id": "101",
     "candidatePrefecture": "福岡県",
     "election": "福岡市議会議員選挙",
     "electiondistrict": "博多区",
@@ -1488,7 +1519,7 @@
     "detail": ""
   },
   {
-    "id": 102,
+    "id": "102",
     "candidatePrefecture": "福岡県",
     "election": "福岡市議会議員選挙",
     "electiondistrict": "西区",
@@ -1519,7 +1550,7 @@
     "detail": ""
   },
   {
-    "id": 103,
+    "id": "103",
     "candidatePrefecture": "福岡県",
     "election": "福岡市議会議員選挙",
     "electiondistrict": "早良区",
@@ -1550,7 +1581,7 @@
     "detail": ""
   },
   {
-    "id": 104,
+    "id": "104",
     "candidatePrefecture": "福岡県",
     "election": "福岡市議会議員選挙",
     "electiondistrict": "中央区",
@@ -1581,7 +1612,7 @@
     "detail": ""
   },
   {
-    "id": 105,
+    "id": "105",
     "candidatePrefecture": "大分県",
     "election": "大分県議会議員選挙",
     "electiondistrict": "大分市",
@@ -1612,7 +1643,7 @@
     "detail": ""
   },
   {
-    "id": 106,
+    "id": "106",
     "candidatePrefecture": "高知県",
     "election": "高知県議会議員選挙",
     "electiondistrict": "高知市",
@@ -1643,7 +1674,7 @@
     "detail": ""
   },
   {
-    "id": 107,
+    "id": "107",
     "candidatePrefecture": "北海道",
     "election": "北海道議会議員選挙",
     "electiondistrict": "札幌市中央区",
@@ -1674,7 +1705,7 @@
     "detail": ""
   },
   {
-    "id": 108,
+    "id": "108",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "旭区",
@@ -1705,7 +1736,7 @@
     "detail": ""
   },
   {
-    "id": 109,
+    "id": "109",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "戸塚区",
@@ -1736,7 +1767,7 @@
     "detail": ""
   },
   {
-    "id": 110,
+    "id": "110",
     "candidatePrefecture": "神奈川県",
     "election": "神奈川県議会議員選挙",
     "electiondistrict": "横浜市戸塚区",
@@ -1767,7 +1798,7 @@
     "detail": ""
   },
   {
-    "id": 111,
+    "id": "111",
     "candidatePrefecture": "神奈川県",
     "election": "川崎市議会議員選挙",
     "electiondistrict": "川崎区",
@@ -1798,7 +1829,7 @@
     "detail": ""
   },
   {
-    "id": 112,
+    "id": "112",
     "candidatePrefecture": "愛知県",
     "election": "愛知県議会議員選挙",
     "electiondistrict": "名古屋市西区",
@@ -1829,7 +1860,7 @@
     "detail": ""
   },
   {
-    "id": 113,
+    "id": "113",
     "candidatePrefecture": "愛知県",
     "election": "名古屋市議会議員選挙",
     "electiondistrict": "天白区",
@@ -1860,7 +1891,7 @@
     "detail": ""
   },
   {
-    "id": 114,
+    "id": "114",
     "candidatePrefecture": "和歌山県",
     "election": "和歌山県議会議員選挙",
     "electiondistrict": "和歌山市",
@@ -1891,7 +1922,7 @@
     "detail": ""
   },
   {
-    "id": 115,
+    "id": "115",
     "candidatePrefecture": "長崎県",
     "election": "長崎県議会議員選挙",
     "electiondistrict": "佐世保・北松浦郡",
@@ -1922,7 +1953,7 @@
     "detail": ""
   },
   {
-    "id": 116,
+    "id": "116",
     "candidatePrefecture": "長崎県",
     "election": "長崎県議会議員選挙",
     "electiondistrict": "東彼杵郡",
@@ -1953,7 +1984,7 @@
     "detail": ""
   },
   {
-    "id": 117,
+    "id": "117",
     "candidatePrefecture": "岡山県",
     "election": "岡山県議会議員選挙",
     "electiondistrict": "岡山市中区",
@@ -1984,7 +2015,7 @@
     "detail": ""
   },
   {
-    "id": 118,
+    "id": "118",
     "candidatePrefecture": "滋賀県",
     "election": "滋賀県議会議員選挙",
     "electiondistrict": "大津市",
@@ -2015,7 +2046,7 @@
     "detail": ""
   },
   {
-    "id": 119,
+    "id": "119",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "横浜市神奈川区",
@@ -2046,7 +2077,7 @@
     "detail": ""
   },
   {
-    "id": 120,
+    "id": "120",
     "candidatePrefecture": "神奈川県",
     "election": "神奈川県議会議員選挙",
     "electiondistrict": "横浜市泉区",
@@ -2077,7 +2108,7 @@
     "detail": ""
   },
   {
-    "id": 121,
+    "id": "121",
     "candidatePrefecture": "神奈川県",
     "election": "川崎市議会議員選挙",
     "electiondistrict": "川崎市高津区",
@@ -2108,7 +2139,7 @@
     "detail": ""
   },
   {
-    "id": 122,
+    "id": "122",
     "candidatePrefecture": "熊本県",
     "election": "熊本市議会議員選挙",
     "electiondistrict": "熊本市西区",
@@ -2139,7 +2170,7 @@
     "detail": ""
   },
   {
-    "id": 123,
+    "id": "123",
     "candidatePrefecture": "兵庫県",
     "election": "兵庫県議会議員選挙",
     "electiondistrict": "神戸市北区",
@@ -2170,7 +2201,7 @@
     "detail": ""
   },
   {
-    "id": 124,
+    "id": "124",
     "candidatePrefecture": "兵庫県",
     "election": "兵庫県議会議員選挙",
     "electiondistrict": "川西市・川辺郡",
@@ -2201,7 +2232,7 @@
     "detail": ""
   },
   {
-    "id": 125,
+    "id": "125",
     "candidatePrefecture": "兵庫県",
     "election": "神戸市議会議員選挙",
     "electiondistrict": "神戸市垂水区",
@@ -2232,7 +2263,7 @@
     "detail": ""
   },
   {
-    "id": 126,
+    "id": "126",
     "candidatePrefecture": "兵庫県",
     "election": "神戸市議会議員選挙",
     "electiondistrict": "神戸市垂水区",
@@ -2263,7 +2294,7 @@
     "detail": ""
   },
   {
-    "id": 127,
+    "id": "127",
     "candidatePrefecture": "岡山県",
     "election": "岡山市議会議員選挙",
     "electiondistrict": "岡山市中区",
@@ -2294,7 +2325,7 @@
     "detail": ""
   },
   {
-    "id": 128,
+    "id": "128",
     "candidatePrefecture": "埼玉県",
     "election": "埼玉県議会議員選挙",
     "electiondistrict": "西第7区",
@@ -2325,7 +2356,7 @@
     "detail": ""
   },
   {
-    "id": 129,
+    "id": "129",
     "candidatePrefecture": "京都府",
     "election": "京都府議会議員選挙",
     "electiondistrict": "京都市左京区",
@@ -2356,7 +2387,7 @@
     "detail": ""
   },
   {
-    "id": 130,
+    "id": "130",
     "candidatePrefecture": "京都府",
     "election": "京都府議会議員選挙",
     "electiondistrict": "京都市山科区",
@@ -2387,7 +2418,7 @@
     "detail": ""
   },
   {
-    "id": 131,
+    "id": "131",
     "candidatePrefecture": "京都府",
     "election": "京都府議会議員選挙",
     "electiondistrict": "城陽市",
@@ -2418,7 +2449,7 @@
     "detail": ""
   },
   {
-    "id": 132,
+    "id": "132",
     "candidatePrefecture": "京都府",
     "election": "京都府議会議員選挙",
     "electiondistrict": "京田辺市・綴喜郡",
@@ -2449,7 +2480,7 @@
     "detail": ""
   },
   {
-    "id": 133,
+    "id": "133",
     "candidatePrefecture": "京都府",
     "election": "京都市議会議員選挙",
     "electiondistrict": "左京区",
@@ -2480,7 +2511,7 @@
     "detail": ""
   },
   {
-    "id": 134,
+    "id": "134",
     "candidatePrefecture": "京都府",
     "election": "京都市議会議員選挙",
     "electiondistrict": "東山区",
@@ -2511,7 +2542,7 @@
     "detail": ""
   },
   {
-    "id": 135,
+    "id": "135",
     "candidatePrefecture": "京都府",
     "election": "京都市議会議員選挙",
     "electiondistrict": "山科区",
@@ -2542,7 +2573,7 @@
     "detail": ""
   },
   {
-    "id": 136,
+    "id": "136",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "栄区",
@@ -2573,7 +2604,7 @@
     "detail": ""
   },
   {
-    "id": 137,
+    "id": "137",
     "candidatePrefecture": "三重県",
     "election": "三重県議会議員選挙",
     "electiondistrict": "鈴鹿市",
@@ -2604,7 +2635,7 @@
     "detail": ""
   },
   {
-    "id": 138,
+    "id": "138",
     "candidatePrefecture": "三重県",
     "election": "三重県議会議員選挙",
     "electiondistrict": "津市",
@@ -2635,7 +2666,7 @@
     "detail": ""
   },
   {
-    "id": 139,
+    "id": "139",
     "candidatePrefecture": "三重県",
     "election": "三重県議会議員選挙",
     "electiondistrict": "伊勢市",
@@ -2666,7 +2697,7 @@
     "detail": ""
   },
   {
-    "id": 140,
+    "id": "140",
     "candidatePrefecture": "静岡県",
     "election": "静岡県議会議員選挙",
     "electiondistrict": "静岡市清水区",
@@ -2697,7 +2728,7 @@
     "detail": ""
   },
   {
-    "id": 141,
+    "id": "141",
     "candidatePrefecture": "千葉県",
     "election": "千葉県議会議員選挙",
     "electiondistrict": "野田市",
@@ -2728,7 +2759,7 @@
     "detail": ""
   },
   {
-    "id": 142,
+    "id": "142",
     "candidatePrefecture": "千葉県",
     "election": "千葉県議会議員選挙",
     "electiondistrict": "成田市",
@@ -2759,7 +2790,7 @@
     "detail": ""
   },
   {
-    "id": 143,
+    "id": "143",
     "candidatePrefecture": "新潟県",
     "election": "新潟市議会議員選挙",
     "electiondistrict": "秋葉区",
@@ -2790,7 +2821,7 @@
     "detail": ""
   },
   {
-    "id": 144,
+    "id": "144",
     "candidatePrefecture": "神奈川県",
     "election": "神奈川県議会議員選挙",
     "electiondistrict": "港南区",
@@ -2821,7 +2852,7 @@
     "detail": ""
   },
   {
-    "id": 145,
+    "id": "145",
     "candidatePrefecture": "新潟県",
     "election": "新潟県議会議員選挙",
     "electiondistrict": "新潟市中央区",
@@ -2852,7 +2883,7 @@
     "detail": ""
   },
   {
-    "id": 146,
+    "id": "146",
     "candidatePrefecture": "香川県",
     "election": "香川県議会議員選挙",
     "electiondistrict": "さぬき市",
@@ -2883,7 +2914,7 @@
     "detail": ""
   },
   {
-    "id": 147,
+    "id": "147",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "都筑区",
@@ -2914,7 +2945,7 @@
     "detail": ""
   },
   {
-    "id": 148,
+    "id": "148",
     "candidatePrefecture": "三重県",
     "election": "三重県議会議員選挙",
     "electiondistrict": "四日市市",
@@ -2945,7 +2976,7 @@
     "detail": ""
   },
   {
-    "id": 149,
+    "id": "149",
     "candidatePrefecture": "三重県",
     "election": "三重県議会議員選挙",
     "electiondistrict": "多気郡",
@@ -2976,7 +3007,7 @@
     "detail": ""
   },
   {
-    "id": 150,
+    "id": "150",
     "candidatePrefecture": "長崎県",
     "election": "長崎県議会議員選挙",
     "electiondistrict": "長崎市",
@@ -3007,7 +3038,7 @@
     "detail": ""
   },
   {
-    "id": 151,
+    "id": "151",
     "candidatePrefecture": "山形県",
     "election": "山形県議会議員選挙",
     "electiondistrict": "山形市",
@@ -3038,7 +3069,7 @@
     "detail": ""
   },
   {
-    "id": 152,
+    "id": "152",
     "candidatePrefecture": "山形県",
     "election": "山形県議会議員選挙",
     "electiondistrict": "村山市",
@@ -3069,7 +3100,7 @@
     "detail": ""
   },
   {
-    "id": 153,
+    "id": "153",
     "candidatePrefecture": "神奈川県",
     "election": "相模原市議会議員選挙",
     "electiondistrict": "南区",
@@ -3100,7 +3131,7 @@
     "detail": ""
   },
   {
-    "id": 154,
+    "id": "154",
     "candidatePrefecture": "愛媛県",
     "election": "愛媛県議会議員選挙",
     "electiondistrict": "西条市",
@@ -3131,7 +3162,7 @@
     "detail": "愛媛県議会議員（現職）\n【経歴】皇學館大学卒業\n新居浜市立商業高等学校教諭\n愛媛県立新居浜東高等学校教諭\n愛媛県立丹原高等学校教諭\n愛媛県立新居浜西高等学校教諭\n西条市議会議員（１期）\n西條神社宮司 保護司"
   },
   {
-    "id": 155,
+    "id": "155",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "磯子区",
@@ -3162,7 +3193,7 @@
     "detail": ""
   },
   {
-    "id": 156,
+    "id": "156",
     "candidatePrefecture": "神奈川県",
     "election": "横浜市議会議員選挙",
     "electiondistrict": "鶴見区",
@@ -3193,7 +3224,7 @@
     "detail": ""
   },
   {
-    "id": 157,
+    "id": "157",
     "candidatePrefecture": "神奈川県",
     "election": "相模原市議会議員選挙",
     "electiondistrict": "緑区",
@@ -3224,7 +3255,7 @@
     "detail": ""
   },
   {
-    "id": 158,
+    "id": "158",
     "candidatePrefecture": "福岡県",
     "election": "福岡県議会議員選挙",
     "electiondistrict": "行橋市",
@@ -3255,7 +3286,7 @@
     "detail": ""
   },
   {
-    "id": 159,
+    "id": "159",
     "candidatePrefecture": "神奈川県",
     "election": "相模原市議会議員選挙",
     "electiondistrict": "中央区",
@@ -3286,7 +3317,7 @@
     "detail": ""
   },
   {
-    "id": 160,
+    "id": "160",
     "candidatePrefecture": "愛知県",
     "election": "愛知県議会議員選挙",
     "electiondistrict": "小牧市",
@@ -3317,7 +3348,7 @@
     "detail": ""
   },
   {
-    "id": 161,
+    "id": "161",
     "candidatePrefecture": "大分県",
     "election": "大分県議会議員選挙",
     "electiondistrict": "宇佐市",
@@ -3348,7 +3379,7 @@
     "detail": ""
   },
   {
-    "id": 162,
+    "id": "162",
     "candidatePrefecture": "山形県",
     "election": "山形県議会議員選挙",
     "electiondistrict": "東根市",
@@ -3379,7 +3410,7 @@
     "detail": ""
   },
   {
-    "id": 163,
+    "id": "163",
     "candidatePrefecture": "山形県",
     "election": "山形県議会議員選挙",
     "electiondistrict": "酒田市・飽海郡",
@@ -3410,7 +3441,7 @@
     "detail": ""
   },
   {
-    "id": 164,
+    "id": "164",
     "candidatePrefecture": "千葉県",
     "election": "千葉県議会議員選挙",
     "electiondistrict": "千葉市稲毛区",
@@ -3441,7 +3472,7 @@
     "detail": ""
   },
   {
-    "id": 165,
+    "id": "165",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -3472,7 +3503,7 @@
     "detail": ""
   },
   {
-    "id": 166,
+    "id": "166",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -3503,7 +3534,7 @@
     "detail": ""
   },
   {
-    "id": 167,
+    "id": "167",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -3534,7 +3565,7 @@
     "detail": ""
   },
   {
-    "id": 168,
+    "id": "168",
     "candidatePrefecture": "宮崎県",
     "election": "日向市議会議員選挙",
     "electiondistrict": "",
@@ -3565,7 +3596,7 @@
     "detail": ""
   },
   {
-    "id": 169,
+    "id": "169",
     "candidatePrefecture": "宮崎県",
     "election": "日向市議会議員選挙",
     "electiondistrict": "",
@@ -3596,7 +3627,7 @@
     "detail": ""
   },
   {
-    "id": 170,
+    "id": "170",
     "candidatePrefecture": "宮崎県",
     "election": "宮崎市議会議員選挙",
     "electiondistrict": "",
@@ -3627,7 +3658,7 @@
     "detail": ""
   },
   {
-    "id": 171,
+    "id": "171",
     "candidatePrefecture": "愛知県",
     "election": "一宮市議会議員選挙",
     "electiondistrict": "",
@@ -3658,7 +3689,7 @@
     "detail": ""
   },
   {
-    "id": 172,
+    "id": "172",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -3689,7 +3720,7 @@
     "detail": ""
   },
   {
-    "id": 173,
+    "id": "173",
     "candidatePrefecture": "宮崎県",
     "election": "宮崎市議会議員選挙",
     "electiondistrict": "",
@@ -3720,7 +3751,7 @@
     "detail": ""
   },
   {
-    "id": 174,
+    "id": "174",
     "candidatePrefecture": "岐阜県",
     "election": "大垣市議会議員選挙",
     "electiondistrict": "",
@@ -3751,7 +3782,7 @@
     "detail": ""
   },
   {
-    "id": 175,
+    "id": "175",
     "candidatePrefecture": "東京都",
     "election": "港区議会議員選挙",
     "electiondistrict": "",
@@ -3782,7 +3813,7 @@
     "detail": ""
   },
   {
-    "id": 176,
+    "id": "176",
     "candidatePrefecture": "東京都",
     "election": "港区議会議員選挙",
     "electiondistrict": "",
@@ -3813,7 +3844,7 @@
     "detail": ""
   },
   {
-    "id": 177,
+    "id": "177",
     "candidatePrefecture": "東京都",
     "election": "港区議会議員選挙",
     "electiondistrict": "",
@@ -3844,7 +3875,7 @@
     "detail": ""
   },
   {
-    "id": 178,
+    "id": "178",
     "candidatePrefecture": "東京都",
     "election": "文京区議会議員選挙",
     "electiondistrict": "",
@@ -3875,7 +3906,7 @@
     "detail": ""
   },
   {
-    "id": 179,
+    "id": "179",
     "candidatePrefecture": "東京都",
     "election": "目黒区議会議員選挙",
     "electiondistrict": "",
@@ -3906,7 +3937,7 @@
     "detail": ""
   },
   {
-    "id": 180,
+    "id": "180",
     "candidatePrefecture": "東京都",
     "election": "世田谷区議会議員選挙",
     "electiondistrict": "",
@@ -3937,7 +3968,7 @@
     "detail": ""
   },
   {
-    "id": 181,
+    "id": "181",
     "candidatePrefecture": "東京都",
     "election": "練馬区議会議員選挙",
     "electiondistrict": "",
@@ -3968,7 +3999,7 @@
     "detail": ""
   },
   {
-    "id": 182,
+    "id": "182",
     "candidatePrefecture": "東京都",
     "election": "板橋区議会議員選挙",
     "electiondistrict": "",
@@ -3999,7 +4030,7 @@
     "detail": ""
   },
   {
-    "id": 183,
+    "id": "183",
     "candidatePrefecture": "東京都",
     "election": "江東区議会議員選挙",
     "electiondistrict": "",
@@ -4030,7 +4061,7 @@
     "detail": ""
   },
   {
-    "id": 184,
+    "id": "184",
     "candidatePrefecture": "東京都",
     "election": "八王子市議会議員選挙",
     "electiondistrict": "",
@@ -4061,7 +4092,7 @@
     "detail": ""
   },
   {
-    "id": 185,
+    "id": "185",
     "candidatePrefecture": "福井県",
     "election": "福井市議会議員選挙",
     "electiondistrict": "",
@@ -4092,7 +4123,7 @@
     "detail": ""
   },
   {
-    "id": 186,
+    "id": "186",
     "candidatePrefecture": "福井県",
     "election": "敦賀市議会議員選挙",
     "electiondistrict": "",
@@ -4123,7 +4154,7 @@
     "detail": ""
   },
   {
-    "id": 187,
+    "id": "187",
     "candidatePrefecture": "千葉県",
     "election": "流山市議会議員選挙",
     "electiondistrict": "",
@@ -4154,7 +4185,7 @@
     "detail": ""
   },
   {
-    "id": 188,
+    "id": "188",
     "candidatePrefecture": "千葉県",
     "election": "佐倉市議会議員選挙",
     "electiondistrict": "",
@@ -4185,7 +4216,7 @@
     "detail": ""
   },
   {
-    "id": 189,
+    "id": "189",
     "candidatePrefecture": "千葉県",
     "election": "船橋市議会議員選挙",
     "electiondistrict": "",
@@ -4216,7 +4247,7 @@
     "detail": ""
   },
   {
-    "id": 190,
+    "id": "190",
     "candidatePrefecture": "千葉県",
     "election": "印西市議会議員選挙",
     "electiondistrict": "",
@@ -4247,7 +4278,7 @@
     "detail": ""
   },
   {
-    "id": 191,
+    "id": "191",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -4278,7 +4309,7 @@
     "detail": ""
   },
   {
-    "id": 192,
+    "id": "192",
     "candidatePrefecture": "大阪府",
     "election": "豊中市議会議員選挙",
     "electiondistrict": "",
@@ -4309,7 +4340,7 @@
     "detail": ""
   },
   {
-    "id": 193,
+    "id": "193",
     "candidatePrefecture": "大阪府",
     "election": "池田市議会議員選挙",
     "electiondistrict": "",
@@ -4340,7 +4371,7 @@
     "detail": ""
   },
   {
-    "id": 194,
+    "id": "194",
     "candidatePrefecture": "大阪府",
     "election": "熊取町議会議員選挙",
     "electiondistrict": "",
@@ -4371,7 +4402,7 @@
     "detail": ""
   },
   {
-    "id": 195,
+    "id": "195",
     "candidatePrefecture": "香川県",
     "election": "高松市議会議員選挙",
     "electiondistrict": "",
@@ -4402,7 +4433,7 @@
     "detail": ""
   },
   {
-    "id": 196,
+    "id": "196",
     "candidatePrefecture": "香川県",
     "election": "高松市議会議員選挙",
     "electiondistrict": "",
@@ -4433,7 +4464,7 @@
     "detail": ""
   },
   {
-    "id": 197,
+    "id": "197",
     "candidatePrefecture": "香川県",
     "election": "高松市議会議員選挙",
     "electiondistrict": "",
@@ -4464,7 +4495,7 @@
     "detail": ""
   },
   {
-    "id": 198,
+    "id": "198",
     "candidatePrefecture": "香川県",
     "election": "坂出市議会議員選挙",
     "electiondistrict": "",
@@ -4495,7 +4526,7 @@
     "detail": ""
   },
   {
-    "id": 199,
+    "id": "199",
     "candidatePrefecture": "香川県",
     "election": "さぬき市議会議員選挙",
     "electiondistrict": "",
@@ -4526,7 +4557,7 @@
     "detail": ""
   },
   {
-    "id": 200,
+    "id": "200",
     "candidatePrefecture": "香川県",
     "election": "さぬき市議会議員選挙",
     "electiondistrict": "",
@@ -4557,7 +4588,7 @@
     "detail": ""
   },
   {
-    "id": 201,
+    "id": "201",
     "candidatePrefecture": "香川県",
     "election": "さぬき市議会議員選挙",
     "electiondistrict": "",
@@ -4588,7 +4619,7 @@
     "detail": ""
   },
   {
-    "id": 202,
+    "id": "202",
     "candidatePrefecture": "香川県",
     "election": "東かがわ市議会議員選挙",
     "electiondistrict": "",
@@ -4619,7 +4650,7 @@
     "detail": ""
   },
   {
-    "id": 203,
+    "id": "203",
     "candidatePrefecture": "香川県",
     "election": "東かがわ市議会議員選挙",
     "electiondistrict": "",
@@ -4650,7 +4681,7 @@
     "detail": ""
   },
   {
-    "id": 204,
+    "id": "204",
     "candidatePrefecture": "香川県",
     "election": "三木町議会議員選挙",
     "electiondistrict": "",
@@ -4681,7 +4712,7 @@
     "detail": ""
   },
   {
-    "id": 205,
+    "id": "205",
     "candidatePrefecture": "香川県",
     "election": "宇多津町議会議員選挙",
     "electiondistrict": "",
@@ -4712,7 +4743,7 @@
     "detail": ""
   },
   {
-    "id": 206,
+    "id": "206",
     "candidatePrefecture": "香川県",
     "election": "宇多津町議会議員選挙",
     "electiondistrict": "",
@@ -4743,7 +4774,7 @@
     "detail": ""
   },
   {
-    "id": 207,
+    "id": "207",
     "candidatePrefecture": "福岡県",
     "election": "大野城市議会議員選挙",
     "electiondistrict": "",
@@ -4774,7 +4805,7 @@
     "detail": ""
   },
   {
-    "id": 208,
+    "id": "208",
     "candidatePrefecture": "埼玉県",
     "election": "熊谷市議会議員選挙",
     "electiondistrict": "",
@@ -4805,7 +4836,7 @@
     "detail": ""
   },
   {
-    "id": 209,
+    "id": "209",
     "candidatePrefecture": "神奈川県",
     "election": "藤沢市議会議員選挙",
     "electiondistrict": "",
@@ -4836,7 +4867,7 @@
     "detail": ""
   },
   {
-    "id": 210,
+    "id": "210",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -4867,7 +4898,7 @@
     "detail": ""
   },
   {
-    "id": 211,
+    "id": "211",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -4898,7 +4929,7 @@
     "detail": ""
   },
   {
-    "id": 212,
+    "id": "212",
     "candidatePrefecture": "宮崎県",
     "election": "延岡市議会議員選挙",
     "electiondistrict": "",
@@ -4929,7 +4960,7 @@
     "detail": ""
   },
   {
-    "id": 213,
+    "id": "213",
     "candidatePrefecture": "宮崎県",
     "election": "宮崎市議会議員選挙",
     "electiondistrict": "",
@@ -4960,7 +4991,7 @@
     "detail": ""
   },
   {
-    "id": 214,
+    "id": "214",
     "candidatePrefecture": "和歌山県",
     "election": "和歌山市議会議員選挙",
     "electiondistrict": "",
@@ -4991,7 +5022,7 @@
     "detail": ""
   },
   {
-    "id": 215,
+    "id": "215",
     "candidatePrefecture": "和歌山県",
     "election": "和歌山市議会議員選挙",
     "electiondistrict": "",
@@ -5022,7 +5053,7 @@
     "detail": ""
   },
   {
-    "id": 216,
+    "id": "216",
     "candidatePrefecture": "三重県",
     "election": "四日市市議会議員選挙",
     "electiondistrict": "",
@@ -5053,7 +5084,7 @@
     "detail": ""
   },
   {
-    "id": 217,
+    "id": "217",
     "candidatePrefecture": "長崎県",
     "election": "佐世保市議会議員選挙",
     "electiondistrict": "",
@@ -5084,7 +5115,7 @@
     "detail": ""
   },
   {
-    "id": 218,
+    "id": "218",
     "candidatePrefecture": "長崎県",
     "election": "佐世保市議会議員選挙",
     "electiondistrict": "",
@@ -5115,7 +5146,7 @@
     "detail": ""
   },
   {
-    "id": 219,
+    "id": "219",
     "candidatePrefecture": "長崎県",
     "election": "佐世保市議会議員選挙",
     "electiondistrict": "",
@@ -5146,7 +5177,7 @@
     "detail": ""
   },
   {
-    "id": 220,
+    "id": "220",
     "candidatePrefecture": "長崎県",
     "election": "佐世保市議会議員選挙",
     "electiondistrict": "",
@@ -5177,7 +5208,7 @@
     "detail": ""
   },
   {
-    "id": 221,
+    "id": "221",
     "candidatePrefecture": "石川県",
     "election": "金沢市議会議員選挙",
     "electiondistrict": "",
@@ -5208,7 +5239,7 @@
     "detail": ""
   },
   {
-    "id": 222,
+    "id": "222",
     "candidatePrefecture": "新潟県",
     "election": "長岡市議会議員選挙",
     "electiondistrict": "",
@@ -5239,7 +5270,7 @@
     "detail": ""
   },
   {
-    "id": 223,
+    "id": "223",
     "candidatePrefecture": "栃木県",
     "election": "宇都宮市議会議員選挙",
     "electiondistrict": "",
@@ -5270,7 +5301,7 @@
     "detail": ""
   },
   {
-    "id": 224,
+    "id": "224",
     "candidatePrefecture": "栃木県",
     "election": "小山市議会議員選挙",
     "electiondistrict": "",
@@ -5301,7 +5332,7 @@
     "detail": ""
   },
   {
-    "id": 225,
+    "id": "225",
     "candidatePrefecture": "福井県",
     "election": "福井市議会議員選挙",
     "electiondistrict": "",
@@ -5332,7 +5363,7 @@
     "detail": ""
   },
   {
-    "id": 226,
+    "id": "226",
     "candidatePrefecture": "東京都",
     "election": "調布市議会議員選挙",
     "electiondistrict": "",
@@ -5363,7 +5394,7 @@
     "detail": ""
   },
   {
-    "id": 227,
+    "id": "227",
     "candidatePrefecture": "東京都",
     "election": "目黒区議会議員選挙",
     "electiondistrict": "",
@@ -5394,7 +5425,7 @@
     "detail": ""
   },
   {
-    "id": 228,
+    "id": "228",
     "candidatePrefecture": "東京都",
     "election": "千代田区議会議員選挙",
     "electiondistrict": "",
@@ -5425,7 +5456,7 @@
     "detail": ""
   },
   {
-    "id": 229,
+    "id": "229",
     "candidatePrefecture": "東京都",
     "election": "荒川区議会議員選挙",
     "electiondistrict": "",
@@ -5456,7 +5487,7 @@
     "detail": ""
   },
   {
-    "id": 230,
+    "id": "230",
     "candidatePrefecture": "東京都",
     "election": "東久留米市議会議員選挙",
     "electiondistrict": "",
@@ -5487,7 +5518,7 @@
     "detail": ""
   },
   {
-    "id": 231,
+    "id": "231",
     "candidatePrefecture": "東京都",
     "election": "世田谷区議会議員選挙",
     "electiondistrict": "",
@@ -5518,7 +5549,7 @@
     "detail": ""
   },
   {
-    "id": 232,
+    "id": "232",
     "candidatePrefecture": "東京都",
     "election": "江戸川区議会議員選挙",
     "electiondistrict": "",
@@ -5549,7 +5580,7 @@
     "detail": ""
   },
   {
-    "id": 233,
+    "id": "233",
     "candidatePrefecture": "東京都",
     "election": "杉並区議会議員選挙",
     "electiondistrict": "",
@@ -5580,7 +5611,7 @@
     "detail": ""
   },
   {
-    "id": 234,
+    "id": "234",
     "candidatePrefecture": "東京都",
     "election": "青梅市議会議員選挙",
     "electiondistrict": "",
@@ -5611,7 +5642,7 @@
     "detail": ""
   },
   {
-    "id": 235,
+    "id": "235",
     "candidatePrefecture": "兵庫県",
     "election": "明石市議会議員選挙",
     "electiondistrict": "",
@@ -5642,7 +5673,7 @@
     "detail": ""
   },
   {
-    "id": 236,
+    "id": "236",
     "candidatePrefecture": "兵庫県",
     "election": "芦屋市議会議員選挙",
     "electiondistrict": "",
@@ -5673,7 +5704,7 @@
     "detail": ""
   },
   {
-    "id": 237,
+    "id": "237",
     "candidatePrefecture": "兵庫県",
     "election": "宝塚市議会議員選挙",
     "electiondistrict": "",
@@ -5704,7 +5735,7 @@
     "detail": ""
   },
   {
-    "id": 238,
+    "id": "238",
     "candidatePrefecture": "埼玉県",
     "election": "川越市議会議員選挙",
     "electiondistrict": "",
@@ -5735,7 +5766,7 @@
     "detail": ""
   },
   {
-    "id": 239,
+    "id": "239",
     "candidatePrefecture": "埼玉県",
     "election": "和光市議会議員選挙",
     "electiondistrict": "",
@@ -5766,7 +5797,7 @@
     "detail": ""
   },
   {
-    "id": 240,
+    "id": "240",
     "candidatePrefecture": "大阪府",
     "election": "高槻市議会議員選挙",
     "electiondistrict": "",
@@ -5797,7 +5828,7 @@
     "detail": ""
   },
   {
-    "id": 241,
+    "id": "241",
     "candidatePrefecture": "京都府",
     "election": "福知山市議会議員選挙",
     "electiondistrict": "",
@@ -5828,7 +5859,7 @@
     "detail": ""
   },
   {
-    "id": 242,
+    "id": "242",
     "candidatePrefecture": "京都府",
     "election": "宇治市議会議員選挙",
     "electiondistrict": "",
@@ -5859,7 +5890,7 @@
     "detail": ""
   },
   {
-    "id": 243,
+    "id": "243",
     "candidatePrefecture": "京都府",
     "election": "城陽市議会議員選挙",
     "electiondistrict": "",
@@ -5890,7 +5921,7 @@
     "detail": ""
   },
   {
-    "id": 244,
+    "id": "244",
     "candidatePrefecture": "京都府",
     "election": "木津川市議会議員選挙",
     "electiondistrict": "",
@@ -5921,7 +5952,7 @@
     "detail": ""
   },
   {
-    "id": 245,
+    "id": "245",
     "candidatePrefecture": "愛媛県",
     "election": "新居浜市議会議員選挙",
     "electiondistrict": "",
@@ -5952,7 +5983,7 @@
     "detail": "自動車整備士\nキッズスクール「エストレージャ新居浜」代表\n新居浜市金子小学校\n新居浜市立南中学校\n新居浜東高等学校\n中日本自動車短期大学卒業"
   },
   {
-    "id": 246,
+    "id": "246",
     "candidatePrefecture": "千葉県",
     "election": "市川市議会議員選挙",
     "electiondistrict": "",
@@ -5983,7 +6014,7 @@
     "detail": ""
   },
   {
-    "id": 247,
+    "id": "247",
     "candidatePrefecture": "千葉県",
     "election": "佐倉市議会議員選挙",
     "electiondistrict": "",
@@ -6014,7 +6045,7 @@
     "detail": ""
   },
   {
-    "id": 248,
+    "id": "248",
     "candidatePrefecture": "奈良県",
     "election": "大和郡山市議会議員選挙",
     "electiondistrict": "",
@@ -6045,7 +6076,7 @@
     "detail": ""
   },
   {
-    "id": 249,
+    "id": "249",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6076,7 +6107,7 @@
     "detail": ""
   },
   {
-    "id": 250,
+    "id": "250",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6107,7 +6138,7 @@
     "detail": ""
   },
   {
-    "id": 251,
+    "id": "251",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6138,7 +6169,7 @@
     "detail": ""
   },
   {
-    "id": 252,
+    "id": "252",
     "candidatePrefecture": "滋賀県",
     "election": "彦根市議会議員選挙",
     "electiondistrict": "",
@@ -6169,7 +6200,7 @@
     "detail": ""
   },
   {
-    "id": 253,
+    "id": "253",
     "candidatePrefecture": "東京都",
     "election": "江東区議会議員選挙",
     "electiondistrict": "",
@@ -6200,7 +6231,7 @@
     "detail": ""
   },
   {
-    "id": 254,
+    "id": "254",
     "candidatePrefecture": "秋田県",
     "election": "秋田市議会議員選挙",
     "electiondistrict": "",
@@ -6231,7 +6262,7 @@
     "detail": ""
   },
   {
-    "id": 255,
+    "id": "255",
     "candidatePrefecture": "茨城県",
     "election": "常総市議会議員選挙",
     "electiondistrict": "",
@@ -6262,7 +6293,7 @@
     "detail": "茨城県立水海道第一高等学校卒/中央高等学校建築工学科卒"
   },
   {
-    "id": 256,
+    "id": "256",
     "candidatePrefecture": "香川県",
     "election": "坂出市議会議員選挙",
     "electiondistrict": "",
@@ -6293,7 +6324,7 @@
     "detail": ""
   },
   {
-    "id": 257,
+    "id": "257",
     "candidatePrefecture": "北海道",
     "election": "岩見沢市議会議員選挙",
     "electiondistrict": "",
@@ -6324,7 +6355,7 @@
     "detail": ""
   },
   {
-    "id": 258,
+    "id": "258",
     "candidatePrefecture": "大阪府",
     "election": "大阪狭山市議会議員選挙",
     "electiondistrict": "",
@@ -6355,7 +6386,7 @@
     "detail": ""
   },
   {
-    "id": 259,
+    "id": "259",
     "candidatePrefecture": "千葉県",
     "election": "船橋市議会議員選挙",
     "electiondistrict": "",
@@ -6386,7 +6417,7 @@
     "detail": ""
   },
   {
-    "id": 260,
+    "id": "260",
     "candidatePrefecture": "京都府",
     "election": "宇治市議会議員選挙",
     "electiondistrict": "",
@@ -6417,7 +6448,7 @@
     "detail": ""
   },
   {
-    "id": 261,
+    "id": "261",
     "candidatePrefecture": "北海道",
     "election": "帯広市議会議員選挙",
     "electiondistrict": "",
@@ -6448,7 +6479,7 @@
     "detail": ""
   },
   {
-    "id": 262,
+    "id": "262",
     "candidatePrefecture": "北海道",
     "election": "苫小牧市議会議員選挙",
     "electiondistrict": "",
@@ -6479,7 +6510,7 @@
     "detail": ""
   },
   {
-    "id": 263,
+    "id": "263",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -6510,7 +6541,7 @@
     "detail": ""
   },
   {
-    "id": 264,
+    "id": "264",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -6541,7 +6572,7 @@
     "detail": ""
   },
   {
-    "id": 265,
+    "id": "265",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -6572,7 +6603,7 @@
     "detail": ""
   },
   {
-    "id": 266,
+    "id": "266",
     "candidatePrefecture": "長崎県",
     "election": "長与町議会議員選挙",
     "electiondistrict": "",
@@ -6603,7 +6634,7 @@
     "detail": ""
   },
   {
-    "id": 267,
+    "id": "267",
     "candidatePrefecture": "長崎県",
     "election": "時津町議会議員選挙",
     "electiondistrict": "",
@@ -6634,7 +6665,7 @@
     "detail": ""
   },
   {
-    "id": 268,
+    "id": "268",
     "candidatePrefecture": "東京都",
     "election": "台東区議会議員選挙",
     "electiondistrict": "",
@@ -6665,7 +6696,7 @@
     "detail": ""
   },
   {
-    "id": 269,
+    "id": "269",
     "candidatePrefecture": "東京都",
     "election": "豊島区議会議員選挙",
     "electiondistrict": "",
@@ -6696,7 +6727,7 @@
     "detail": ""
   },
   {
-    "id": 270,
+    "id": "270",
     "candidatePrefecture": "岐阜県",
     "election": "大垣市議会議員選挙",
     "electiondistrict": "",
@@ -6727,7 +6758,7 @@
     "detail": ""
   },
   {
-    "id": 271,
+    "id": "271",
     "candidatePrefecture": "山形県",
     "election": "米沢市議会議員選挙",
     "electiondistrict": "",
@@ -6758,7 +6789,7 @@
     "detail": ""
   },
   {
-    "id": 272,
+    "id": "272",
     "candidatePrefecture": "千葉県",
     "election": "浦安市議会議員選挙",
     "electiondistrict": "",
@@ -6789,7 +6820,7 @@
     "detail": ""
   },
   {
-    "id": 273,
+    "id": "273",
     "candidatePrefecture": "福井県",
     "election": "高浜町議会議員選挙",
     "electiondistrict": "",
@@ -6820,7 +6851,7 @@
     "detail": ""
   },
   {
-    "id": 274,
+    "id": "274",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6851,7 +6882,7 @@
     "detail": ""
   },
   {
-    "id": 275,
+    "id": "275",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6882,7 +6913,7 @@
     "detail": ""
   },
   {
-    "id": 276,
+    "id": "276",
     "candidatePrefecture": "滋賀県",
     "election": "大津市議会議員選挙",
     "electiondistrict": "",
@@ -6913,7 +6944,7 @@
     "detail": ""
   },
   {
-    "id": 277,
+    "id": "277",
     "candidatePrefecture": "愛知県",
     "election": "春日井市議会議員選挙",
     "electiondistrict": "",
@@ -6944,7 +6975,7 @@
     "detail": ""
   },
   {
-    "id": 278,
+    "id": "278",
     "candidatePrefecture": "福井県",
     "election": "敦賀市議会議員選挙",
     "electiondistrict": "",
@@ -6975,7 +7006,7 @@
     "detail": ""
   },
   {
-    "id": 279,
+    "id": "279",
     "candidatePrefecture": "福岡県",
     "election": "筑紫野市議会議員選挙",
     "electiondistrict": "",
@@ -7006,7 +7037,7 @@
     "detail": ""
   },
   {
-    "id": 280,
+    "id": "280",
     "candidatePrefecture": "京都府",
     "election": "城陽市議会議員選挙",
     "electiondistrict": "",
@@ -7037,7 +7068,7 @@
     "detail": ""
   },
   {
-    "id": 281,
+    "id": "281",
     "candidatePrefecture": "京都府",
     "election": "京田辺市議会議員選挙",
     "electiondistrict": "",
@@ -7068,7 +7099,7 @@
     "detail": ""
   },
   {
-    "id": 282,
+    "id": "282",
     "candidatePrefecture": "東京都",
     "election": "東大和市議会議員選挙",
     "electiondistrict": "",
@@ -7099,7 +7130,7 @@
     "detail": ""
   },
   {
-    "id": 283,
+    "id": "283",
     "candidatePrefecture": "東京都",
     "election": "新宿区議会議員選挙",
     "electiondistrict": "",
@@ -7130,7 +7161,7 @@
     "detail": ""
   },
   {
-    "id": 284,
+    "id": "284",
     "candidatePrefecture": "東京都",
     "election": "大田区議会議員選挙",
     "electiondistrict": "",
@@ -7161,7 +7192,7 @@
     "detail": ""
   },
   {
-    "id": 285,
+    "id": "285",
     "candidatePrefecture": "東京都",
     "election": "大田区議会議員選挙",
     "electiondistrict": "",
@@ -7192,7 +7223,7 @@
     "detail": ""
   },
   {
-    "id": 286,
+    "id": "286",
     "candidatePrefecture": "東京都",
     "election": "墨田区議会議員選挙",
     "electiondistrict": "",
@@ -7223,7 +7254,7 @@
     "detail": ""
   },
   {
-    "id": 287,
+    "id": "287",
     "candidatePrefecture": "東京都",
     "election": "中野区議会議員選挙",
     "electiondistrict": "",
@@ -7254,7 +7285,7 @@
     "detail": ""
   },
   {
-    "id": 288,
+    "id": "288",
     "candidatePrefecture": "東京都",
     "election": "北区議会議員選挙",
     "electiondistrict": "",
@@ -7285,7 +7316,7 @@
     "detail": ""
   },
   {
-    "id": 289,
+    "id": "289",
     "candidatePrefecture": "東京都",
     "election": "渋谷区議会議員選挙",
     "electiondistrict": "",
@@ -7316,7 +7347,7 @@
     "detail": ""
   },
   {
-    "id": 290,
+    "id": "290",
     "candidatePrefecture": "東京都",
     "election": "三鷹市議会議員選挙",
     "electiondistrict": "",
@@ -7347,7 +7378,7 @@
     "detail": ""
   },
   {
-    "id": 291,
+    "id": "291",
     "candidatePrefecture": "東京都",
     "election": "中央区議会議員選挙",
     "electiondistrict": "",
@@ -7378,7 +7409,7 @@
     "detail": ""
   },
   {
-    "id": 292,
+    "id": "292",
     "candidatePrefecture": "東京都",
     "election": "品川区議会議員選挙",
     "electiondistrict": "",
@@ -7409,7 +7440,7 @@
     "detail": ""
   },
   {
-    "id": 293,
+    "id": "293",
     "candidatePrefecture": "福岡県",
     "election": "古賀市議会議員選挙",
     "electiondistrict": "",
@@ -7440,7 +7471,7 @@
     "detail": ""
   },
   {
-    "id": 294,
+    "id": "294",
     "candidatePrefecture": "山形県",
     "election": "山形市議会議員選挙",
     "electiondistrict": "",
@@ -7471,7 +7502,7 @@
     "detail": ""
   },
   {
-    "id": 295,
+    "id": "295",
     "candidatePrefecture": "山形県",
     "election": "山形市議会議員選挙",
     "electiondistrict": "",
@@ -7502,7 +7533,7 @@
     "detail": ""
   },
   {
-    "id": 296,
+    "id": "296",
     "candidatePrefecture": "山形県",
     "election": "新庄市議会議員選挙",
     "electiondistrict": "",
@@ -7533,7 +7564,7 @@
     "detail": ""
   },
   {
-    "id": 297,
+    "id": "297",
     "candidatePrefecture": "広島県",
     "election": "広島県議会議員選挙",
     "electiondistrict": "尾道市",
@@ -7564,7 +7595,7 @@
     "detail": ""
   },
   {
-    "id": 298,
+    "id": "298",
     "candidatePrefecture": "長崎県",
     "election": "長崎市議会議員選挙",
     "electiondistrict": "",
@@ -7595,7 +7626,7 @@
     "detail": ""
   },
   {
-    "id": 299,
+    "id": "299",
     "candidatePrefecture": "茨城県",
     "election": "水戸市議会議員選挙",
     "electiondistrict": "",
@@ -7626,7 +7657,7 @@
     "detail": "2019年4月　水戸市議会議員 初当選"
   },
   {
-    "id": 300,
+    "id": "300",
     "candidatePrefecture": "東京都",
     "election": "足立区議会議員選挙",
     "electiondistrict": "",
@@ -7657,7 +7688,7 @@
     "detail": ""
   },
   {
-    "id": 301,
+    "id": "301",
     "candidatePrefecture": "千葉県",
     "election": "市原市議会議員選挙",
     "electiondistrict": "",
@@ -7688,7 +7719,7 @@
     "detail": ""
   },
   {
-    "id": 302,
+    "id": "302",
     "candidatePrefecture": "岩手県",
     "election": "滝沢市議会議員選挙",
     "electiondistrict": "",
@@ -7719,7 +7750,7 @@
     "detail": ""
   },
   {
-    "id": 303,
+    "id": "303",
     "candidatePrefecture": "神奈川県",
     "election": "厚木市議会議員選挙",
     "electiondistrict": "",
@@ -7750,7 +7781,7 @@
     "detail": ""
   },
   {
-    "id": 304,
+    "id": "304",
     "candidatePrefecture": "岩手県",
     "election": "盛岡市議会議員選挙",
     "electiondistrict": "",
@@ -7781,7 +7812,7 @@
     "detail": ""
   },
   {
-    "id": 305,
+    "id": "305",
     "candidatePrefecture": "岩手県",
     "election": "岩手県議会議員選挙",
     "electiondistrict": "盛岡市",
@@ -7812,7 +7843,7 @@
     "detail": ""
   },
   {
-    "id": 306,
+    "id": "306",
     "candidatePrefecture": "愛知県",
     "election": "小牧市議会議員選挙",
     "electiondistrict": "",
@@ -7843,7 +7874,7 @@
     "detail": ""
   },
   {
-    "id": 307,
+    "id": "307",
     "candidatePrefecture": "愛知県",
     "election": "小牧市議会議員選挙",
     "electiondistrict": "",
