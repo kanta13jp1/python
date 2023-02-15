@@ -33,11 +33,11 @@ for screen_name in user_list:
     if user.name == '立憲民主党':
         rikken_follower: int = user.followers_count
         user_info = [user.name, '@' + user.screen_name,
-                     rikken_follower, rikken_follower - 191523]
+                     rikken_follower, rikken_follower - 191494]
     else:
         kokumin_follower: int = user.followers_count
         user_info = [user.name, '@' + user.screen_name,
-                     kokumin_follower, kokumin_follower - 56338]
+                     kokumin_follower, kokumin_follower - 56339]
     print(user_info)
     members_list.append(user_info)
 
@@ -45,7 +45,7 @@ print(f'{rikken_follower} and {kokumin_follower}')
 
 sabun = (rikken_follower - kokumin_follower)
 print(sabun)
-user_info = ['差分', '', sabun, sabun - 135185]
+user_info = ['差分', '', sabun, sabun - 135155]
 
 
 sorted_list = sorted(members_list, key=itemgetter(2), reverse=True)
