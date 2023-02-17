@@ -15,3 +15,4 @@ if __name__ == "__main__":
 
     df_clean = df.drop_duplicates()
     print(len(df_clean))
+    print(df_clean)

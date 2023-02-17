@@ -56,10 +56,10 @@ for screen_name in user_list:
     if (hasattr(user, 'status')):
         print(user.status.created_at)
         user_info = [user.name, '@' + user.screen_name,
-                     user.statuses_count, user.status.created_at]
+                     user.statuses_count, user.status.created_at, user.followers_count]
     else:
         user_info = [user.name, '@' + user.screen_name,
-                     user.statuses_count, user.created_at]
+                     user.statuses_count, user.created_at, user.followers_count]
     # print(user_info)
     # if (user.description == '' and user.statuses_count != 0):
     members_list.append(user_info)
@@ -140,7 +140,7 @@ try:
 except FileExistsError:
     pass
 df = pd.DataFrame(sorted_list, columns=[
-                  'name', 'screen_name', 'statuses_count', 'followers_count'])
-df.to_csv(dir + '/Hatsugen_users_' +
-          datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
+                  'name', 'screen_name', 'statuses_count', 'status_time', 'followers_count'])
+df.to_csv(dir + '/Hatsugen_' +
+          datetime.datetime.now().strftime('%y%m%d') + '.csv')
 # removed_users.to_csv(dir + '/removed_users_' + datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')

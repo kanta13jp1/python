@@ -33,11 +33,11 @@ for screen_name in user_list:
     if user.name == '立憲民主党':
         rikken_follower: int = user.followers_count
         user_info = [user.name, '@' + user.screen_name,
-                     rikken_follower, rikken_follower - 191494]
+                     rikken_follower, rikken_follower - 191474]
     else:
         kokumin_follower: int = user.followers_count
         user_info = [user.name, '@' + user.screen_name,
-                     kokumin_follower, kokumin_follower - 56339]
+                     kokumin_follower, kokumin_follower - 56354]
     print(user_info)
     members_list.append(user_info)
 
@@ -45,7 +45,7 @@ print(f'{rikken_follower} and {kokumin_follower}')
 
 sabun = (rikken_follower - kokumin_follower)
 print(sabun)
-user_info = ['差分', '', sabun, sabun - 135155]
+user_info = ['差分', '', sabun, sabun - 135120]
 
 
 sorted_list = sorted(members_list, key=itemgetter(2), reverse=True)
@@ -127,5 +127,5 @@ except FileExistsError:
 df = pd.DataFrame(sorted_list, columns=[
                   'name', 'screen_name', 'followers_count', 'sabun'])
 df.to_csv(dir + '/Hikaku_' +
-          datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
+          datetime.datetime.now().strftime('%y%m%d') + '.csv')
 # removed_users.to_csv(dir + '/removed_users_' + datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')

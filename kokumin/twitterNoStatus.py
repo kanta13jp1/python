@@ -151,7 +151,7 @@ user_list = {
     'koji_oashi',
     'nakataniayano',
     'Hashimoto_Mkhk',
-    'kokuminhodo',
+    'tomoakikokumin',
     'y_ishiwatari',
     'tomoyan_yoko',
     'hiro_0202aq',
@@ -368,6 +368,6 @@ except FileExistsError:
     pass
 df = pd.DataFrame(sorted_list, columns=[
                   'name', 'screen_name', 'followers_count'])
-df.to_csv(dir + '/NoStatus_users_' +
-          datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')
+df.to_csv(dir + '/NoStatus_' +
+          datetime.datetime.now().strftime('%y%m%d') + '.csv')
 # removed_users.to_csv(dir + '/removed_users_' + datetime.datetime.now().strftime('%y%m%d%H%M%S') + '.csv')

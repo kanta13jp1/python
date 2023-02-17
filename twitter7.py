@@ -43,7 +43,7 @@ user_list = {
     'yumibetterworld',
     'takazawa1',
     'kokumin_Ouen_hs',
-    'kokuminhodo',
+    'tomoakikokumin',
     'Rabbit_Uphill',
     'mariko_hichiwa',
     'wako0501',

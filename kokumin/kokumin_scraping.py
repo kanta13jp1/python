@@ -60,6 +60,9 @@ if __name__ == '__main__':
     mydb = myclient["test"]
     mycol = mydb["test"]
     # f = open('myfile.txt', 'w', encoding='UTF-8')
+    # DBのデータを削除
+    x = mycol.delete_many({})
+    print(x.deleted_count, " documents deleted.")
     # 全データを表示
     for i in range(len(rvw_list)):
         rvw_text = textwrap.fill(rvw_list[i].text, 80)
