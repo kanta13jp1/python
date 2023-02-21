@@ -25,42 +25,42 @@ support_ratings2 = [0.8, 1.3, 1.8, 0.6, 2.1, 2.6,
                     2.5, 3.0, 2.9, 2.6, 3.8, 3.2, 2.2, 3.1]  # 共同通信
 support_ratings3 = [1.0, 1.0, 1.0, 1.5, 1.2, 1.3,
                     1.6, 1.5, 2.1, 1.1, 1.2, 1.5, 1.0, 1.3]  # NHK
-support_ratings4 = [1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 1, 1]  # 朝日新聞
+support_ratings4 = [1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 1, 2]  # 朝日新聞
 support_ratings5 = [1.7, 1.9, 2.3, 1.5, 2.4, 1.9,
-                    2.6, 2.4, 1.4, 2.0, 2.1, 2.8, 1.7, 1.7]  # ANN
-support_ratings6 = [2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3]  # 日経新聞
+                    2.6, 2.4, 1.4, 2.0, 2.1, 2.8, 1.7, 1.9]  # ANN
+support_ratings6 = [2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3]  # 日経・テレ東
 support_ratings7 = [0.7, 1.0, 1.2, 1.5, 1.0, 0.6,
-                    1.9, 1.3, 1.3, 1.1, 0.6, 1.4, 1.5, 1.5]  # 時事通信
+                    1.9, 1.3, 1.3, 1.1, 0.6, 1.4, 1.5, 0.8]  # 時事通信
 support_ratings8 = [1.1, 1.6, 1.4, 2.2, 1.1, 1.4,
-                    0.6, 1.7, 1.4, 2.6, 2.0, 0.8, 2.0, 1.8]  # JNN
-support_ratings9 = [2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]  # 読売新聞
+                    0.6, 1.7, 1.4, 2.6, 2.0, 0.8, 2.0, 1.8]  # TBS・JNN
+support_ratings9 = [2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]  # 読売・NNN
 support_ratings10 = [1.3, 0.4, 0.7, 1.4, 1.5,
-                     1.4, 2.0, 1.2, 1.3, 1.3, 1.8, 2.1, 1.7, 1.7]  # FNN
+                     1.4, 2.0, 1.2, 1.3, 1.3, 1.8, 2.1, 1.7, 1.5]  # 産経・FNN
 
 average_ratings = []
 
 # Create the graph
-ax.plot(times, support_ratings, label="毎日新聞 2023/1/22 4%")
+ax.plot(times, support_ratings, label="毎日新聞 2023/2/19 4%")
 ax.plot(times, support_ratings2, label="共同通信 2023/2/13 3.1%")
 ax.plot(times, support_ratings3, label="NHK 2023/2/13 1.3%")
-ax.plot(times, support_ratings4, label="朝日新聞 2023/1/23 1%")
-ax.plot(times, support_ratings5, label="ANN 2023/1/23 1.7%")
-ax.plot(times, support_ratings6, label="日経新聞 2023/1/29 3%")
-ax.plot(times, support_ratings7, label="時事通信 2023/1/19 1.5%")
-ax.plot(times, support_ratings8, label="JNN 2023/2/6 1.8%")
-ax.plot(times, support_ratings9, label="読売新聞 2023/1/16 1%")
-ax.plot(times, support_ratings10, label="FNN 2023/1/23 1.7%")
+ax.plot(times, support_ratings4, label="朝日新聞 2023/2/21 2%")
+ax.plot(times, support_ratings5, label="ANN 2023/2/20 1.9%")
+ax.plot(times, support_ratings6, label="日経・テレ東 2023/1/29 3%")
+ax.plot(times, support_ratings7, label="時事通信 2023/2/16 0.8%")
+ax.plot(times, support_ratings8, label="TBS・JNN 2023/2/6 1.8%")
+ax.plot(times, support_ratings9, label="読売・NNN 2023/2/19 1%")
+ax.plot(times, support_ratings10, label="産経・FNN 2023/2/20 1.5%")
 for i, txt in enumerate(times):
     average = (support_ratings[i] + support_ratings2[i] + support_ratings3[i] + support_ratings4[i] + support_ratings5[i] +
                support_ratings6[i] + support_ratings7[i] + support_ratings8[i] + support_ratings9[i] + support_ratings10[i]) / 10
     average_ratings.append(average)
-ax.plot(times, average_ratings, label="各社平均")
+ax.plot(times, average_ratings, label="各社平均 2023/2/21 2.0%")
 ax.set_facecolor((1, 1, 1, 0))
 ax.legend(bbox_to_anchor=(1.01, 1), loc='upper left', borderaxespad=0)
 
 # Add labels and title using Japanese characters
 plt.ylabel("政党支持率(%)")
-plt.title("国民民主党の政党支持率推移 2022年1月～2023年2月\n（毎日新聞、共同通信、NHK、朝日新聞、ANN、日経新聞、時事通信、JNN、読売新聞、FNN）\n　",
+plt.title("国民民主党の政党支持率推移 2022年1月～2023年2月\n（毎日新聞、共同通信、NHK、朝日新聞、ANN、時事通信、日経・テレ東、TBS・JNN、読売・NNN、産経・FNN）\n　",
           loc='left', fontsize=24)
 
 # 各要素にDataFrameのインデックスの数字をラベルとして付ける
