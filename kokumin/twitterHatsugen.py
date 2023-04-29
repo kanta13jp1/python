@@ -41,7 +41,6 @@ user_list = {
     'dpfp_shimane',
     'dp_tochigi',
     'n7e0jof',
-    'minshin_y',
     'dpj_kagoshima',
     'minshuwakayama',
     'DPFPnews',

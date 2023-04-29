@@ -15,6 +15,8 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 
 user_list = {
     'hashimoto_lo',
+    'm_waka4222',
+    'okumatoshiaki',
     'hyakukei',
     'akiyoshi1625',
     'msakamoto1971',
@@ -172,9 +174,7 @@ user_list = {
     'maekawa190',
     'rurukisakamoto',
     'IwataHirotaka',
-    'yukarikanetou',
     'kanetououentai',
-    'kanetou55',
     'TWNapoli',
     'bunkyotaizo',
     'YumiYamaki107',
@@ -189,9 +189,7 @@ user_list = {
     'BVd5wh9e90eA5mj',
     'junko_okano',
     'kokumin_kuma',
-    'minshin_y',
     'dpj_kagoshima',
-    't_kakuda',
     'gutsdego',
     'Ishida_shingo51',
     'kawai_akinari',
