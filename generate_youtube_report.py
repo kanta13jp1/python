@@ -44,7 +44,7 @@ channels = [
     {"name": "救急医政治家・福田とおる", "id": "UCn99ji8uiM1rMZTVrb2IaJw", "url": "https://www.youtube.com/@%E7%A6%8F%E7%94%B0%E3%81%A8%E3%81%8A%E3%82%8B"},
     {"name": "小林さやかチャンネル", "id": "UCz4EuwJ6UQvjHuGR5wpJL-w", "url": "https://www.youtube.com/@%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%84%E3%81%8B%E5%BE%8C%E6%8F%B4%E4%BC%9A"},
     {"name": "【公式】江原くみ子チャンネル", "id": "UCJkN5exl5XrfRhBkx4A7XMg", "url": "https://www.youtube.com/@eharakumiko"},
-    {"name": "国民民主党　富山県　庭田ゆきえ", "id": "UCAxj_RFxlsX4EnaXuKDnRFw", "url": "https://www.youtube.com/@%E5%BA%AD%E7%94%B0%E5%B9%B8%E6%81%B5"},
+    # {"name": "国民民主党　富山県　庭田ゆきえ", "id": "UCAxj_RFxlsX4EnaXuKDnRFw", "url": "https://www.youtube.com/@%E5%BA%AD%E7%94%B0%E5%B9%B8%E6%81%B5"},
     {"name": "奥村よしひろ", "id": "UCENJ_oZXbaU0ovsl7uTd7Sw", "url": "https://www.youtube.com/@YOSHIHIRO_OKUMURA29"},
     {"name": "きくち大二郎チャンネル", "id": "UCUSicJmBl8KnSB2ezFQm1dQ", "url": "https://www.youtube.com/@kikuchi_daijiro"},
     # {"name": "堀江あきら'が'学び直し塾", "id": "UC3UH6ZzhdozTkRffmVDn9Qg", "url": "https://www.youtube.com/@akirahorie1987"},
@@ -74,6 +74,7 @@ channels = [
     {"name": "入江のぶこチャンネル 国民民主党・東京7区 衆議院議員候補者", "id": "UCE4wl6JIFtBjESzCBa4SoZA", "url": "https://www.youtube.com/channel/UCE4wl6JIFtBjESzCBa4SoZA"},
     {"name": "中村太一チャンネル 国民民主党 衆議院神奈川17区", "id": "UC5HQt2fgOoYrwrADbMjRg3A", "url": "https://www.youtube.com/channel/UC5HQt2fgOoYrwrADbMjRg3A"},
     {"name": "鳩山紀一郎", "id": "UCGHNFMTYrhOj3CFu0MDc3UQ", "url": "https://www.youtube.com/channel/UCGHNFMTYrhOj3CFu0MDc3UQ"},
+    {"name": "佐藤りりか事務所", "id": "UCFCZDHUJmYlqZP8L295ro5A", "url": "https://www.youtube.com/@sato_ririka"},
 ]
 
 # ID が UC… でなければ URL から抜き出す
