@@ -19,7 +19,7 @@ channels = [
     {"name": "しんばかづやチャンネル", "id": "UC88peYfCbtZD_J1DnkV57Rw", "url": "https://www.youtube.com/channel/UC88peYfCbtZD_J1DnkV57Rw"},
     {"name": "伊藤たかえちゃんねる", "id": "UCMG5j9U1wI2m_fH3ThLhVZw", "url": "https://www.youtube.com/channel/UCMG5j9U1wI2m_fH3ThLhVZw"},
     {"name": "深作ヘスス", "id": "UCzYiBNKmAWioIDUxLeTUO-Q", "url": "https://www.youtube.com/channel/UCzYiBNKmAWioIDUxLeTUO-Q"},
-    {"name": "国民民主党 就職氷河期チャンネル", "id": "UC58xKa3nBQZJld_eQ-1E1qA", "url": "https://www.youtube.com/@DPFP_sub"},
+    {"name": "国民民主党「対決より解説」チャンネル", "id": "UC58xKa3nBQZJld_eQ-1E1qA", "url": "https://www.youtube.com/@DPFP_sub"},
     {"name": "森ようすけチャンネル", "id": "UCtddZo9oH5aBAW_Ax26WBew", "url": "https://www.youtube.com/@mori-yosuke"},
     # {"name": "山尾志桜里チャンネル", "id": "UChhZSOjONLdFSlGAx1dKTBw", "url": "https://www.youtube.com/@YamaoShiori"},
     {"name": "はまぐち誠チャンネル", "id": "UCn5YaIkKPivHCvnITBzOYcg", "url": "https://www.youtube.com/channel/UCn5YaIkKPivHCvnITBzOYcg"},
