@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 API_KEY = "AIzaSyCDxizTbIEY1O_fLVx4mj5hCGx1i7RkM7k"
 YOUTUBE = build("youtube", "v3", developerKey=API_KEY)
 PREV_FILE = "subs_prev.json"
+MAX_CHANNELS = 49
 
 # ★ チャンネルリスト（省略可能） ★
 channels = [
@@ -21,17 +22,17 @@ channels = [
     {"name": "深作ヘスス", "id": "UCzYiBNKmAWioIDUxLeTUO-Q", "url": "https://www.youtube.com/channel/UCzYiBNKmAWioIDUxLeTUO-Q"},
     {"name": "国民民主党「対決より解説」チャンネル", "id": "UC58xKa3nBQZJld_eQ-1E1qA", "url": "https://www.youtube.com/@DPFP_sub"},
     {"name": "森ようすけチャンネル", "id": "UCtddZo9oH5aBAW_Ax26WBew", "url": "https://www.youtube.com/@mori-yosuke"},
-    # {"name": "山尾志桜里チャンネル", "id": "UChhZSOjONLdFSlGAx1dKTBw", "url": "https://www.youtube.com/@YamaoShiori"},
+    {"name": "山尾志桜里チャンネル", "id": "UChhZSOjONLdFSlGAx1dKTBw", "url": "https://www.youtube.com/@YamaoShiori"},
     {"name": "はまぐち誠チャンネル", "id": "UCn5YaIkKPivHCvnITBzOYcg", "url": "https://www.youtube.com/channel/UCn5YaIkKPivHCvnITBzOYcg"},
     {"name": "浅野さとし公式チャンネル", "id": "UCPyFaCFzmr4UXlJmg4RJBnQ", "url": "https://www.youtube.com/@asano__satoshi"},
-    # {"name": "参議院議員 梅村みずほの【梅チャン♪】", "id": "UCgT4cadhDNmvOPMyICglacA", "url": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E6%A2%85%E6%9D%91%E3%81%BF%E3%81%9A%E3%81%BB%E3%81%AE%E6%A2%85"},
+    {"name": "参議院議員 梅村みずほの【梅チャン♪】", "id": "UCgT4cadhDNmvOPMyICglacA", "url": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E6%A2%85%E6%9D%91%E3%81%BF%E3%81%9A%E3%81%BB%E3%81%AE%E6%A2%85"},
     {"name": "田村まみちゃんねる", "id": "UCdeZ9kSZBi38z_BgWCFbx3w", "url": "https://www.youtube.com/@%E7%94%B0%E6%9D%91%E3%81%BE%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"},
-    # {"name": "やたわかチャンネル", "id": "UCmPZG_kOdGb7XAI7J0JBeMQ", "url": "https://www.youtube.com/@yatawakako"},
+    {"name": "やたわかチャンネル", "id": "UCmPZG_kOdGb7XAI7J0JBeMQ", "url": "https://www.youtube.com/@yatawakako"},
     {"name": "かわいたかのり事務所", "id": "UC2iT6lhfuIEK23R1LFuLbkw", "url": "https://www.youtube.com/@%E3%81%8B%E3%82%8F%E3%81%84%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A%E4%BA%8B%E5%8B%99%E6%89%80"},
     {"name": "教えて! やすえちゃん", "id": "UCgX_iJmfXY8H8q803NTqWKA", "url": "https://www.youtube.com/@yasuechan"},
     {"name": "いそざき哲史 ちゃんねる", "id": "UC29Vz-CJneDCQZHlcxAit-A", "url": "https://www.youtube.com/@IsozakiTetsuji"},
     {"name": "ゴシゴシかごしまちゃんねる", "id": "UCkWxcxYvigRoGoqg10kRRJA", "url": "https://www.youtube.com/@kagoshimammoth"},
-    # {"name": "竹詰ひとしの『たけちゃんねる』", "id": "UCuXrocorVtSXcodJ8P0aHrQ", "url": "https://www.youtube.com/@%E7%AB%B9%E8%A9%B0%E3%81%B2%E3%81%A8%E3%81%97%E3%81%AE%E3%81%9F%E3%81%91%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"},
+    {"name": "竹詰ひとしの『たけちゃんねる』", "id": "UCuXrocorVtSXcodJ8P0aHrQ", "url": "https://www.youtube.com/@%E7%AB%B9%E8%A9%B0%E3%81%B2%E3%81%A8%E3%81%97%E3%81%AE%E3%81%9F%E3%81%91%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"},
     {"name": "おだけチャンネル", "id": "UCd_hNdnFB7R2Y43r-VLpr0g", "url": "https://www.youtube.com/@odake_kokumin"},
     {"name": "ひのさりチャンネル", "id": "UC2z2VDOBZAgWogPsthObavw", "url": "https://www.youtube.com/channel/UC2z2VDOBZAgWogPsthObavw"},
     {"name": "浜野よしふみチャンネル", "id": "UCJCXqehY85HuNJGYXqw4IdA", "url": "https://www.youtube.com/@%E6%B5%9C%E9%87%8E%E3%82%88%E3%81%97%E3%81%B5%E3%81%BF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"},
@@ -44,26 +45,26 @@ channels = [
     {"name": "救急医政治家・福田とおる", "id": "UCn99ji8uiM1rMZTVrb2IaJw", "url": "https://www.youtube.com/@%E7%A6%8F%E7%94%B0%E3%81%A8%E3%81%8A%E3%82%8B"},
     {"name": "小林さやかチャンネル", "id": "UCz4EuwJ6UQvjHuGR5wpJL-w", "url": "https://www.youtube.com/@%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%84%E3%81%8B%E5%BE%8C%E6%8F%B4%E4%BC%9A"},
     {"name": "【公式】江原くみ子チャンネル", "id": "UCJkN5exl5XrfRhBkx4A7XMg", "url": "https://www.youtube.com/@eharakumiko"},
-    # {"name": "国民民主党　富山県　庭田ゆきえ", "id": "UCAxj_RFxlsX4EnaXuKDnRFw", "url": "https://www.youtube.com/@%E5%BA%AD%E7%94%B0%E5%B9%B8%E6%81%B5"},
+    {"name": "国民民主党　富山県　庭田ゆきえ", "id": "UCAxj_RFxlsX4EnaXuKDnRFw", "url": "https://www.youtube.com/@%E5%BA%AD%E7%94%B0%E5%B9%B8%E6%81%B5"},
     {"name": "奥村よしひろ", "id": "UCENJ_oZXbaU0ovsl7uTd7Sw", "url": "https://www.youtube.com/@YOSHIHIRO_OKUMURA29"},
     {"name": "きくち大二郎チャンネル", "id": "UCUSicJmBl8KnSB2ezFQm1dQ", "url": "https://www.youtube.com/@kikuchi_daijiro"},
-    # {"name": "堀江あきら'が'学び直し塾", "id": "UC3UH6ZzhdozTkRffmVDn9Qg", "url": "https://www.youtube.com/@akirahorie1987"},
+    {"name": "堀江あきら'が'学び直し塾", "id": "UC3UH6ZzhdozTkRffmVDn9Qg", "url": "https://www.youtube.com/@akirahorie1987"},
     {"name": "かわもと健一チャンネル", "id": "UCoLNTUZ83NXAZ0b-FQXqzaw", "url": "https://www.youtube.com/@kawamoto1979"},
-    # {"name": "きどかおり", "id": "UCnUltJHRdMm4_peIdRbRI_Q", "url": "https://www.youtube.com/channel/UCnUltJHRdMm4_peIdRbRI_Q"},
+    {"name": "きどかおり", "id": "UCnUltJHRdMm4_peIdRbRI_Q", "url": "https://www.youtube.com/channel/UCnUltJHRdMm4_peIdRbRI_Q"},
     {"name": "平戸航太チャンネル", "id": "UCzXn5-cH5e9CANNjFh6mojA", "url": "https://www.youtube.com/@KoutaHirado"},
     {"name": "熊本ちひろ　横浜市会議員(南区)", "id": "UCnJs-Oz53p98wId7sdS1Ikg", "url": "https://www.youtube.com/@kumamoto_chi"},
     {"name": "愛媛1区・いしいともえ YouTubeチャンネル", "id": "UC6UMAxgnOSbAsrH2KK2hmjw", "url": "https://www.youtube.com/@%E6%94%BF%E6%B2%BB%E5%AE%B6%E3%81%84%E3%81%97%E3%81%84%E3%81%A8%E3%82%82%E3%81%88%E5%A5%B3%E6%80%A7%E3%81%AE%E7%94%9F%E3%81%8D"},
     {"name": "山田吉彦(ヨシヒコ)公式チャンネル", "id": "UCtcleTqYfCEzp6rR002Qo4A", "url": "https://www.youtube.com/channel/UCtcleTqYfCEzp6rR002Qo4A"},
     {"name": "山中しゅんすけチャンネル", "id": "UC_Reig3SKVc8gFxQT_dYlbA", "url": "https://www.youtube.com/@ER_Internal_Ortho"},
-    # {"name": "おくもとゆりちゃんねる", "id": "UCLHKuD0_A71lwVqU68coCNw", "url": "https://www.youtube.com/@OkumotoYuri"},
+    {"name": "おくもとゆりちゃんねる", "id": "UCLHKuD0_A71lwVqU68coCNw", "url": "https://www.youtube.com/@OkumotoYuri"},
     {"name": "牛田まゆチャンネル", "id": "UCUZtNoALtR3OYqS0n3Iakxw", "url": "https://www.youtube.com/@ushida-channel"},
     {"name": "薬師寺みちよチャンネル【公式】", "id": "UCckIbzB-LzHQtytJE__pg4A", "url": "https://www.youtube.com/@michiyo_yakushiji"},
-    # {"name": "水野こういちチャンネル", "id": "UCCSHRid3dsr41kPX_Uf_9vg", "url": "https://www.youtube.com/channel/UCCSHRid3dsr41kPX_Uf_9vg"},
+    {"name": "水野こういちチャンネル", "id": "UCCSHRid3dsr41kPX_Uf_9vg", "url": "https://www.youtube.com/channel/UCCSHRid3dsr41kPX_Uf_9vg"},
     {"name": "鈴木まさきチャンネル@国民民主党", "id": "UC6DZano0LZUaPEOtN1tNu7g", "url": "https://www.youtube.com/channel/UC6DZano0LZUaPEOtN1tNu7g"},
-    # {"name": "後藤ひとし事務所", "id": "UC3oa3fhphcDPF1zgbyQ90UQ", "url": "https://www.youtube.com/@go510"},
-    # {"name": "せっきー教育ちゃんねる", "id": "UCNELIPmEUBr4LL6-RUQyjzg", "url": "https://www.youtube.com/channel/UCNELIPmEUBr4LL6-RUQyjzg"},
-    # {"name": "伊藤たつおチャンネル", "id": "UCs7HgyO7o4-nX0BinHycNig", "url": "https://www.youtube.com/@tatsuo_i_39thankyou"},
-    # {"name": "京都府議会議員　酒井つねおチャンネル", "id": "UC5UuiF-EdKu0ZC6UwcvGb4w", "url": "https://www.youtube.com/channel/UC5UuiF-EdKu0ZC6UwcvGb4w"},
+    {"name": "後藤ひとし事務所", "id": "UC3oa3fhphcDPF1zgbyQ90UQ", "url": "https://www.youtube.com/@go510"},
+    {"name": "せっきー教育ちゃんねる", "id": "UCNELIPmEUBr4LL6-RUQyjzg", "url": "https://www.youtube.com/channel/UCNELIPmEUBr4LL6-RUQyjzg"},
+    {"name": "伊藤たつおチャンネル", "id": "UCs7HgyO7o4-nX0BinHycNig", "url": "https://www.youtube.com/@tatsuo_i_39thankyou"},
+    {"name": "京都府議会議員　酒井つねおチャンネル", "id": "UC5UuiF-EdKu0ZC6UwcvGb4w", "url": "https://www.youtube.com/channel/UC5UuiF-EdKu0ZC6UwcvGb4w"},
     {"name": "川崎の翔平チャンネル【国民民主党 山口翔平】", "id": "UCaK1fEZln3n_isrWZxFQrEg", "url": "https://www.youtube.com/@kawasaki-shohei"},
     {"name": "木村さちこのさっチャンネル", "id": "UCIIpLTDxSDGnftUdPJtx1Dg", "url": "https://www.youtube.com/@kimurasachikolaw"},
     {"name": "梶原みずほ　国民民主党公認候補　衆議院 東京10区 豊島区 文京区", "id": "UC06A1kNyns6DN52qCOYEMRg", "url": "https://www.youtube.com/@mizuhokajiwara"},
@@ -75,6 +76,7 @@ channels = [
     {"name": "中村太一チャンネル 国民民主党 衆議院神奈川17区", "id": "UC5HQt2fgOoYrwrADbMjRg3A", "url": "https://www.youtube.com/channel/UC5HQt2fgOoYrwrADbMjRg3A"},
     {"name": "鳩山紀一郎", "id": "UCGHNFMTYrhOj3CFu0MDc3UQ", "url": "https://www.youtube.com/channel/UCGHNFMTYrhOj3CFu0MDc3UQ"},
     {"name": "佐藤りりか事務所", "id": "UCFCZDHUJmYlqZP8L295ro5A", "url": "https://www.youtube.com/@sato_ririka"},
+    {"name": "西岡秀子チャンネル", "id": "UC5hoJAFHvsIf941txy36mQg", "url": "https://www.youtube.com/@%E8%A5%BF%E5%B2%A1%E7%A7%80%E5%AD%90-nishioka"},
 ]
 
 # ID が UC… でなければ URL から抜き出す
@@ -119,21 +121,20 @@ def fetch_latest_videos_from_uploads(stats):
             if items:
                 it = items[0]
                 vid = it["contentDetails"]["videoId"]
-                pub = it["contentDetails"]["videoPublishedAt"]
-                dt = (datetime.fromisoformat(pub.replace("Z", "+00:00"))
-                           .astimezone(timezone(timedelta(hours=9))))
+                dt = parse_video_published_at(it)
                 latest[cid] = {
                     "title": it["snippet"]["title"],
                     "url": f"https://youtu.be/{vid}",
-                    "published": dt.strftime("%Y/%m/%d %H:%M"),
+                    "published": dt.strftime("%Y/%m/%d %H:%M") if dt else "",
+                    "published_at": dt,
                     "views": 0,
                     "videoId": vid
                 }
                 all_vids.append(vid)
             else:
-                latest[cid] = {"title":"", "url":"", "published":"", "views":0, "videoId": None}
+                latest[cid] = empty_latest_video()
         except HttpError:
-            latest[cid] = {"title":"", "url":"", "published":"", "views":0, "videoId": None}
+            latest[cid] = empty_latest_video()
 
     # 2) videos.list で再生数を一括取得
     for i in range(0, len(all_vids), 50):
@@ -169,6 +170,49 @@ def fetch_recent_post_count(cid, days=30):
 
 def human_readable(n):
     return f"{n:,}人"
+
+
+def empty_latest_video():
+    return {
+        "title": "",
+        "url": "",
+        "published": "",
+        "published_at": None,
+        "views": 0,
+        "videoId": None,
+    }
+
+
+def parse_video_published_at(item):
+    published = (
+        item.get("contentDetails", {}).get("videoPublishedAt")
+        or item.get("snippet", {}).get("publishedAt")
+    )
+    if not published:
+        return None
+    try:
+        return datetime.fromisoformat(published.replace("Z", "+00:00")).astimezone(
+            timezone(timedelta(hours=9))
+        )
+    except ValueError:
+        return None
+
+
+def sort_channels_for_output(channels, stats, latest):
+    if not any(latest.get(ch["id"], {}).get("published_at") for ch in channels):
+        ordered = sorted(channels, key=lambda ch: stats[ch["id"]]["subs"], reverse=True)
+        return ordered[:MAX_CHANNELS]
+
+    def sort_key(ch):
+        cid = ch["id"]
+        published_at = latest.get(cid, {}).get("published_at")
+        subs = stats[cid]["subs"]
+        if published_at is None:
+            return (1, 0, -subs, ch["name"])
+        return (0, -published_at.timestamp(), -subs, ch["name"])
+
+    ordered = sorted(channels, key=sort_key)
+    return ordered[:MAX_CHANNELS]
 
 
 def load_previous_stats():
@@ -288,7 +332,7 @@ def main():
                 for cid in ids
             }
             latest = {
-                cid: {"title":"", "url":"", "published":"", "views":0}
+                cid: empty_latest_video()
                 for cid in ids
             }
             recent_counts = {cid: 0 for cid in ids}
@@ -299,7 +343,7 @@ def main():
     now = datetime.now(timezone(timedelta(hours=9))).strftime("%Y/%m/%d %H:%M:%S")
     print(f"国民民主党 Youtubeチャンネル {now} 現在\n")
 
-    for ch in sorted(channels, key=lambda ch: stats[ch["id"]]["subs"], reverse=True):
+    for ch in sort_channels_for_output(channels, stats, latest):
         cid = ch["id"]
         sub = stats[cid]["subs"]
         vidc = stats[cid]["videos"]
