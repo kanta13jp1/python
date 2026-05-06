@@ -77,6 +77,23 @@ channels = [
     {"name": "鳩山紀一郎", "id": "UCGHNFMTYrhOj3CFu0MDc3UQ", "url": "https://www.youtube.com/channel/UCGHNFMTYrhOj3CFu0MDc3UQ"},
     {"name": "佐藤りりか事務所", "id": "UCFCZDHUJmYlqZP8L295ro5A", "url": "https://www.youtube.com/@sato_ririka"},
     {"name": "西岡秀子チャンネル", "id": "UC5hoJAFHvsIf941txy36mQg", "url": "https://www.youtube.com/@%E8%A5%BF%E5%B2%A1%E7%A7%80%E5%AD%90-nishioka"},
+    {"name": "村岡としひでチャンネル", "id": "UCQ0plcASzKxJFI5D0J4VG-g", "url": "https://www.youtube.com/channel/UCQ0plcASzKxJFI5D0J4VG-g"},
+    {"name": "橋本みきひこ 衆議院議員", "id": "UCh2p7IxRaEL-KG6KS4z473A", "url": "https://www.youtube.com/channel/UCh2p7IxRaEL-KG6KS4z473A"},
+    {"name": "衆議院議員 国民民主党・埼玉県第14区総支部長 鈴木よしひろ YouTubeチャンネル", "id": "UCbH8kZWzf-V1mxnwiAxLiBQ", "url": "https://www.youtube.com/channel/UCbH8kZWzf-V1mxnwiAxLiBQ"},
+    {"name": "井戸まさえチャンネル 国民民主党 東京都第4区(大田区)", "id": "UChnAq0FdjOWjkyvguAhMu5w", "url": "https://www.youtube.com/channel/UChnAq0FdjOWjkyvguAhMu5w"},
+    {"name": "高沢かずもとチャンネル", "id": "UCLucaTsTw0XufdgURmN3kuw", "url": "https://www.youtube.com/channel/UCLucaTsTw0XufdgURmN3kuw"},
+    {"name": "【西岡よしたか】国民民主党", "id": "UCQu94wU8HyruofmlA_QJ3cw", "url": "https://www.youtube.com/channel/UCQu94wU8HyruofmlA_QJ3cw"},
+    {"name": "野村美穂", "id": "UCFToRCN9F5u6cThOMxVKSdg", "url": "https://www.youtube.com/channel/UCFToRCN9F5u6cThOMxVKSdg"},
+    {"name": "田中けんチャンネル (静岡4区)", "id": "UCRn4NRJ4eb1qukGApi03txQ", "url": "https://www.youtube.com/channel/UCRn4NRJ4eb1qukGApi03txQ"},
+    {"name": "古川元久のふるげんチャンネル", "id": "UCUSoNPiQPElLtvqRusjD4dQ", "url": "https://www.youtube.com/channel/UCUSoNPiQPElLtvqRusjD4dQ"},
+    {"name": "丹野みどり ちゃんねる", "id": "UCK8324qPpO08o8RP3xQ-9jQ", "url": "https://www.youtube.com/channel/UCK8324qPpO08o8RP3xQ-9jQ"},
+    {"name": "かわい昭成", "id": "UCLoM090P_rFmYKFdZjATO8A", "url": "https://www.youtube.com/channel/UCLoM090P_rFmYKFdZjATO8A"},
+    {"name": "むこチャン! | 向山好一ch", "id": "UC-iWuuPSuSbB-AwOyFrs_cQ", "url": "https://www.youtube.com/channel/UC-iWuuPSuSbB-AwOyFrs_cQ"},
+    {"name": "なべしませり", "id": "UCvVC9mN1QNUCwvQdCchRrPA", "url": "https://www.youtube.com/channel/UCvVC9mN1QNUCwvQdCchRrPA"},
+    {"name": "飯泉嘉門 後援会事務所", "id": "UCVnzfH9qH4fw-ByjMheX-Nw", "url": "https://www.youtube.com/channel/UCVnzfH9qH4fw-ByjMheX-Nw"},
+    {"name": "近藤まさひこ「時代にマッチ」ちゃんねる-福岡6区", "id": "UCO38E4_4y--IdYe1j2LEwGA", "url": "https://www.youtube.com/channel/UCO38E4_4y--IdYe1j2LEwGA"},
+    {"name": "【前・埼玉県知事 参議院議員 上田きよし】公式チャンネル", "id": "UChqvAF0OZIvdzUaxqLH6Epg", "url": "https://www.youtube.com/channel/UChqvAF0OZIvdzUaxqLH6Epg"},
+    {"name": "伊藤孝恵 国会質疑チャンネル", "id": "UCmSDOi2DMMmnBXAMOssIfAg", "url": "https://www.youtube.com/channel/UCmSDOi2DMMmnBXAMOssIfAg"},
 ]
 
 # ID が UC… でなければ URL から抜き出す
